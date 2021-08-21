@@ -8,7 +8,7 @@ const LatestWork = [
   },
   {
     title: "FitPro App",
-    hero: "/images/210412-065841.mp4",
+    hero: "/assets/images/210412-065841.mp4",
     heroType: "video",
     url: "https://dribbble.com/shots/15459406-FitPro-App",
     client: "Generation Tux",

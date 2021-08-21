@@ -36,12 +36,12 @@ const Home = () => (
       <div>
         <video
           class="rounded-xl sm:rounded-3xl max-w-2xl w-full"
-          loop=""
-          autoplay=""
-          playsinline=""
-          muted=""
+          loop
+          autoPlay
+          playsInline
+          muted
           src="/assets/images/200504-093605.mp4"
-          alt=""
+          alt="Look Builder UI"
         ></video>
 
         <SubHeading>
@@ -59,9 +59,10 @@ const Home = () => (
           <div className="max-w-md">
             {item.heroType === "video" ? (
               <video
-                autoplay
+                autoPlay
                 loop
-                playsinline
+                playsInline
+                muted
                 src={item.hero}
                 alt={item.title}
               />
