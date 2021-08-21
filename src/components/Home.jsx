@@ -14,16 +14,12 @@ const Home = () => (
     <Header />
     <div className="space-y-256">
       <div className="container">
-        <Row>
-          <div className="col-span-12 lg:col-start-1 lg:col-end-12 ">
-            <BigHeading className="mb-64">
-              <h1>
-                Hello, I’m Patrick Hill, a product designer delivering user
-                friendly solutions to challenging software problems.
-              </h1>
-            </BigHeading>
-          </div>
-        </Row>
+        <BigHeading className="mb-64 max-w-screen-lg">
+          <h1>
+            Hello, I’m Patrick Hill, a product designer delivering user friendly
+            solutions to challenging software problems.
+          </h1>
+        </BigHeading>
 
         <div className="flex justify-between items-stretch ">
           <div className="flex flex-col">
@@ -57,7 +53,7 @@ const Home = () => (
         <SubHeading>
           <h2>Miscellaneous Work</h2>
         </SubHeading>
-        <BigHeading className="mb-64">
+        <BigHeading className="mb-64 max-w-screen-lg">
           <p>
             An assortment of past projects and personal work to give you a feel
             for what&nbsp;I&nbsp;do.
