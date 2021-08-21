@@ -7,7 +7,7 @@ import SubHeading from "./SubHeading";
 
 const Footer = () => (
   <div>
-    <div className="container">
+    <div className="container space-y-128">
       <div id="footer">
         <div className=" mb-64">
           <SubHeading>
@@ -74,7 +74,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="text-white">
-        <ul className="pt-80 pb-40 px-64 flex flex-col sm:flex-row justify-between items-center text-base font-light tracking-wide">
+        <ul className="pb-40 px-64 flex flex-col sm:flex-row justify-between items-center text-base font-light tracking-wide">
           <li>
             <a
               className="hover:underline"
