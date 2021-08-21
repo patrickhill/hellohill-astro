@@ -48,7 +48,7 @@ const Home = () => (
                   Visualizing custom suit combinations
                 </p>
               </div>
-              <Button>Read</Button>
+              <Button href="/casestudies/lookbuilder">Read</Button>
             </div>
           </div>
         </div>
