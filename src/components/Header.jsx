@@ -1,8 +1,9 @@
 import React from "react";
+import Button from "../components/Button";
 
 const Header = () => (
-  <div>
-    <div className="container">
+  <>
+    <div className="container mx-auto flex justify-between items-center py-32">
       <a href="/">
         <img
           className="inline-block"
@@ -11,11 +12,9 @@ const Header = () => (
         />
       </a>
 
-      <a href="#footer">
-        <div className="btn btn-primary">Hire Me</div>
-      </a>
+      <Button href="#footer">Hire Me</Button>
     </div>
-  </div>
+  </>
 );
 
 export default Header;
