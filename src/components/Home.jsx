@@ -39,12 +39,17 @@ const Home = () => (
               src="/assets/images/200504-093605.mp4"
               alt="Look Builder UI"
             ></video>
-
-            <SubHeading>
-              <p>Case Study:</p>
-            </SubHeading>
-            <p>Visualizing custom suit combinations</p>
-            <Button>Read</Button>
+            <div className="flex justify-between mt-32">
+              <div>
+                <SubHeading>
+                  <p>Case Study:</p>
+                </SubHeading>
+                <p className="text-white text-base font-light">
+                  Visualizing custom suit combinations
+                </p>
+              </div>
+              <Button>Read</Button>
+            </div>
           </div>
         </div>
       </div>
