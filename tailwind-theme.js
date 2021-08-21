@@ -6,9 +6,9 @@ const theme = {
     xl: "1280px",
   },
   colors: {
-    primary: "#9cffd8",
-    secondary: "#3BDFDF",
-    tertiary: "#DEFFB5",
+    mint: "#9cffd8",
+    aqua: "#3BDFDF",
+    tennis: "#DEFFB5",
     transparent: "transparent",
 
     black: "#000",

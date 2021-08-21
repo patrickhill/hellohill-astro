@@ -19,7 +19,7 @@ const Footer = () => (
           </BigHeading>
         </div>
         <div className="flex justify-between items-stretch">
-          <div className="hidden sm:block bg-primary w-4 rounded-full" />
+          <div className="hidden sm:block bg-gradient-brand w-4 rounded-full" />
           <form
             name="contact"
             netlify
@@ -31,7 +31,7 @@ const Footer = () => (
                   Name:
                 </label>
                 <input
-                  className="rounded-lg border border-gray-300 p-16 w-full"
+                  className="rounded-lg border border-gray-300 p-16 w-full outline-none focus:border-aqua focus:bg-gray-100"
                   id="form-name"
                   type="text"
                   placeholder="Name"
@@ -44,7 +44,7 @@ const Footer = () => (
                   Email:
                 </label>
                 <input
-                  className="rounded-lg border border-gray-300 p-16 w-full"
+                  className="rounded-lg border border-gray-300 p-16 w-full outline-none focus:border-aqua focus:bg-gray-100"
                   id="form-email"
                   type="email"
                   placeholder="Email"
@@ -57,7 +57,7 @@ const Footer = () => (
                   Note:
                 </label>
                 <textarea
-                  className="rounded-lg border border-gray-300 p-16 w-full"
+                  className="rounded-lg border border-gray-300 p-16 w-full outline-none focus:border-aqua focus:bg-gray-100"
                   id="form-note"
                   type="text"
                   name="note"
