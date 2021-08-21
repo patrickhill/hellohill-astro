@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../components/Button";
 import BigHeading from "./BigHeading";
+import LineVertical from "./LineVertical";
 import SubHeading from "./SubHeading";
 
 const Footer = () => (
@@ -19,7 +20,8 @@ const Footer = () => (
           </BigHeading>
         </div>
         <div className="flex justify-between items-stretch">
-          <div className="hidden sm:block bg-gradient-brand w-4 rounded-full" />
+          <LineVertical />
+
           <form
             name="contact"
             netlify
