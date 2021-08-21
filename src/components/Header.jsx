@@ -3,7 +3,7 @@ import Button from "../components/Button";
 
 const Header = () => (
   <>
-    <div className="container mx-auto flex justify-between items-center py-32">
+    <div className="container flex justify-between items-center py-32">
       <a href="/">
         <img
           className="inline-block"
