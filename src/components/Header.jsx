@@ -6,7 +6,7 @@ const Header = () => (
       <a href="/">
         <img
           className="inline-block"
-          src="/images/logo.svg"
+          src="/assets/images/logo.svg"
           alt="Hello Hill Logo"
         />
       </a>
