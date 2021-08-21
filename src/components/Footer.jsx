@@ -15,46 +15,53 @@ const Footer = () => (
           </p>
         </div>
         <div className="flex justify-between items-stretch">
-          <div className="bg-primary w-4 rounded-full" />
+          <div className="hidden sm:block bg-primary w-4 rounded-full" />
           <form
             name="contact"
             netlify
-            className="bg-white text-gray-800 rounded-xl sm:rounded-3xl p-32 sm:p-64"
+            className="bg-white text-gray-800 rounded-xl sm:rounded-3xl p-32 sm:p-40 w-full max-w-md sm:ml-64"
           >
-            <div
-              className=" flex flex-col gap-16 sm:grid sm:gap-32"
-              style={{ gridTemplateColumns: "auto auto" }}
-            >
-              <label className="block" for="form-name">
-                Name:
-              </label>
-              <input
-                id="form-name"
-                type="text"
-                placeholder="Name"
-                name="name"
-              />
-              <label className="block" for="form-email">
-                Email:
-              </label>
-              <input
-                id="form-email"
-                type="email"
-                placeholder="Email"
-                name="email"
-              />
-              <label className="block" for="form-note">
-                Note:
-              </label>
-              <textarea
-                id="form-note"
-                type="text"
-                name="note"
-                placeholder="Hello there..."
-              />
-            </div>
-            <div>
-              <Button type="submit" className="mt-32 sm:mt-56 w-full">
+            <div className=" flex flex-col space-y-24 ">
+              <div className="space-y-8">
+                <label className="block" for="form-name">
+                  Name:
+                </label>
+                <input
+                  className="rounded-lg border border-gray-300 p-16 w-full"
+                  id="form-name"
+                  type="text"
+                  placeholder="Name"
+                  name="name"
+                />
+              </div>
+
+              <div className="space-y-8">
+                <label className="block" for="form-email">
+                  Email:
+                </label>
+                <input
+                  className="rounded-lg border border-gray-300 p-16 w-full"
+                  id="form-email"
+                  type="email"
+                  placeholder="Email"
+                  name="email"
+                />
+              </div>
+
+              <div className="space-y-8">
+                <label className="block" for="form-note">
+                  Note:
+                </label>
+                <textarea
+                  className="rounded-lg border border-gray-300 p-16 w-full"
+                  id="form-note"
+                  type="text"
+                  name="note"
+                  placeholder="Hello there..."
+                />
+              </div>
+
+              <Button type="submit" className="w-full">
                 Send
               </Button>
             </div>
