@@ -6,3 +6,15 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.grid-misc > div:nth-child(2n) {
+  @apply max-w-[70%];
+}
+
+.grid-misc > div:nth-child(2n) {
+  @apply md:max-w-full;
+}
+.grid-misc > div:nth-child(4n),
+.grid-misc > div:nth-child(4n-3) {
+  @apply md:max-w-[70%];
+}

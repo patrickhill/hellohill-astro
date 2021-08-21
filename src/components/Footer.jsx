@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../components/Button";
 import BigHeading from "./BigHeading";
 import LineVertical from "./LineVertical";
+import Rounded from "./Rounded";
 import SubHeading from "./SubHeading";
 
 const Footer = () => (
@@ -22,56 +23,54 @@ const Footer = () => (
         <div className="flex justify-between items-stretch">
           <LineVertical />
 
-          <form
-            name="contact"
-            netlify
-            className="bg-white text-gray-800 rounded-xl sm:rounded-3xl p-32 sm:p-40 w-full max-w-md sm:ml-64"
-          >
-            <div className=" flex flex-col space-y-24 ">
-              <div className="space-y-8">
-                <label className="block" for="form-name">
-                  Name:
-                </label>
-                <input
-                  className="rounded-lg border border-gray-300 p-16 w-full outline-none focus:border-aqua focus:bg-gray-100"
-                  id="form-name"
-                  type="text"
-                  placeholder="Name"
-                  name="name"
-                />
-              </div>
+          <Rounded className="bg-white text-gray-800 p-32 sm:p-40 w-full sm:max-w-md sm:ml-64">
+            <form name="contact" netlify>
+              <div className=" flex flex-col space-y-24 ">
+                <div className="space-y-8">
+                  <label className="block" for="form-name">
+                    Name:
+                  </label>
+                  <input
+                    className="rounded-lg border border-gray-300 p-16 w-full outline-none focus:border-aqua focus:bg-gray-100"
+                    id="form-name"
+                    type="text"
+                    placeholder="Name"
+                    name="name"
+                  />
+                </div>
 
-              <div className="space-y-8">
-                <label className="block" for="form-email">
-                  Email:
-                </label>
-                <input
-                  className="rounded-lg border border-gray-300 p-16 w-full outline-none focus:border-aqua focus:bg-gray-100"
-                  id="form-email"
-                  type="email"
-                  placeholder="Email"
-                  name="email"
-                />
-              </div>
+                <div className="space-y-8">
+                  <label className="block" for="form-email">
+                    Email:
+                  </label>
+                  <input
+                    className="rounded-lg border border-gray-300 p-16 w-full outline-none focus:border-aqua focus:bg-gray-100"
+                    id="form-email"
+                    type="email"
+                    placeholder="Email"
+                    name="email"
+                  />
+                </div>
 
-              <div className="space-y-8">
-                <label className="block" for="form-note">
-                  Note:
-                </label>
-                <textarea
-                  className="rounded-lg border border-gray-300 p-16 w-full outline-none focus:border-aqua focus:bg-gray-100"
-                  id="form-note"
-                  type="text"
-                  name="note"
-                  placeholder="Hello there..."
-                />
-              </div>
+                <div className="space-y-8">
+                  <label className="block" for="form-note">
+                    Note:
+                  </label>
+                  <textarea
+                    className="rounded-lg border border-gray-300 p-16 w-full outline-none focus:border-aqua focus:bg-gray-100"
+                    id="form-note"
+                    type="text"
+                    name="note"
+                    placeholder="Hello there..."
+                  />
+                </div>
 
-              <Button type="submit" className="w-full">
-                Send
-              </Button>
-            </div>
-          </form>
+                <Button type="submit" className="w-full">
+                  Send
+                </Button>
+              </div>
+            </form>
+          </Rounded>
         </div>
       </div>
       <div className="text-white">

@@ -7,6 +7,7 @@ import LineVertical from "./LineVertical";
 import Row from "./Row";
 import SubHeading from "./SubHeading";
 import LatestWork from "../latestWork";
+import Rounded from "./Rounded";
 
 const Home = () => (
   <>
@@ -52,26 +53,28 @@ const Home = () => (
       </div>
     </div>
 
-    <div>
-      {LatestWork.map((item, key) => (
-        <div key={key}>
-          <h3 className="text-white text-lg">{item.title}</h3>
-          <div className="max-w-md">
-            {item.heroType === "video" ? (
-              <video
-                autoPlay
-                loop
-                playsInline
-                muted
-                src={item.hero}
-                alt={item.title}
-              />
-            ) : (
-              <img src={item.hero} alt={item.title} />
-            )}
+    <div className="container">
+      <div className="grid-misc grid grid-cols-1 md:grid-cols-2 gap-32 place-items-center">
+        {LatestWork.map((item, key) => (
+          <div key={key}>
+            <Rounded>
+              {item.heroType === "video" ? (
+                <video
+                  autoPlay
+                  loop
+                  playsInline
+                  muted
+                  src={`${item.hero}#t=0.1`}
+                  alt={item.title}
+                  preload="metadata"
+                />
+              ) : (
+                <img src={item.hero} alt={item.title} loading="lazy" />
+              )}
+            </Rounded>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
 
     <Footer />
