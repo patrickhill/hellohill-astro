@@ -13,7 +13,7 @@ const Footer = () => (
           <SubHeading>
             <h2>Hire Me</h2>
           </SubHeading>
-          <BigHeading>
+          <BigHeading className="max-w-screen-lg">
             <p>
               UI design, motion, front-end development. If you need help,
               say&nbsp;hello!
