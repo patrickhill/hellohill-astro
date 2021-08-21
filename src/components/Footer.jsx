@@ -3,8 +3,8 @@ import Button from "../components/Button";
 
 const Footer = () => (
   <div>
-    <div className="container container-cropped buffer-top theme-dark">
-      <div id="footer" className="footer">
+    <div className="container">
+      <div id="footer">
         <div className="bg-primary text-clip mb-64">
           <h2 className="uppercase text-xl font-black tracking-widest">
             Hire Me
