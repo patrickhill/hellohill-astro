@@ -6,6 +6,7 @@ import Header from "./Header";
 import LineVertical from "./LineVertical";
 import Row from "./Row";
 import SubHeading from "./SubHeading";
+import LatestWork from "../latestWork";
 
 const Home = () => (
   <>
@@ -49,6 +50,27 @@ const Home = () => (
         <p>Visualizing custom suit combinations</p>
         <Button>Read</Button>
       </div>
+    </div>
+
+    <div>
+      {LatestWork.map((item, key) => (
+        <div key={key}>
+          <h3 className="text-white text-lg">{item.title}</h3>
+          <div className="max-w-md">
+            {item.heroType === "video" ? (
+              <video
+                autoplay
+                loop
+                playsinline
+                src={item.hero}
+                alt={item.title}
+              />
+            ) : (
+              <img src={item.hero} alt={item.title} />
+            )}
+          </div>
+        </div>
+      ))}
     </div>
 
     <Footer />
