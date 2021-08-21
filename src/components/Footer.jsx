@@ -1,18 +1,22 @@
 import React from "react";
 import Button from "../components/Button";
+import BigHeading from "./BigHeading";
+import SubHeading from "./SubHeading";
 
 const Footer = () => (
   <div>
     <div className="container">
       <div id="footer">
-        <div className="bg-primary text-clip mb-64">
-          <h2 className="uppercase text-xl font-black tracking-widest">
-            Hire Me
-          </h2>
-          <p className="text-6xl font-thin leading-none">
-            UI design, motion, front-end development. If you need help,
-            say&nbsp;hello!
-          </p>
+        <div className=" mb-64">
+          <SubHeading>
+            <h2>Hire Me</h2>
+          </SubHeading>
+          <BigHeading>
+            <p>
+              UI design, motion, front-end development. If you need help,
+              say&nbsp;hello!
+            </p>
+          </BigHeading>
         </div>
         <div className="flex justify-between items-stretch">
           <div className="hidden sm:block bg-primary w-4 rounded-full" />
