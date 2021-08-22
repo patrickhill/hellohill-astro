@@ -18,3 +18,20 @@
 .grid-misc > div:nth-child(4n-3) {
   @apply md:max-w-[70%];
 }
+
+.case-study-grid-images {
+  @apply grid;
+  @apply grid-cols-3;
+  @apply grid-rows-2;
+  @apply gap-8;
+  @apply md:gap-16;
+  @apply mt-8;
+  @apply md:mt-16;
+}
+.case-study-grid-images img {
+  @apply w-full;
+  @apply h-full;
+  @apply object-cover;
+  @apply border;
+  @apply border-gray-100;
+}
