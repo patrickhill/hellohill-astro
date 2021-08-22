@@ -20,24 +20,24 @@ const Footer = ({ className = "" }) => (
         <LineVertical />
 
         <Rounded className="bg-white text-gray-800 p-32 sm:p-40 w-full sm:max-w-md sm:ml-64">
-          <form name="contact" netlify>
+          <form name="contact" netlify="">
             <div className=" flex flex-col space-y-24 ">
               <div className="space-y-8">
-                <label className="block" for="form-name">
+                <label className="block" htmlFor="form-name">
                   Name:
                 </label>
                 <input className="rounded-lg border border-gray-300 p-16 w-full outline-none focus:border-aqua focus:bg-gray-100" id="form-name" type="text" placeholder="Name" name="name" />
               </div>
 
               <div className="space-y-8">
-                <label className="block" for="form-email">
+                <label className="block" htmlFor="form-email">
                   Email:
                 </label>
                 <input className="rounded-lg border border-gray-300 p-16 w-full outline-none focus:border-aqua focus:bg-gray-100" id="form-email" type="email" placeholder="Email" name="email" />
               </div>
 
               <div className="space-y-8">
-                <label className="block" for="form-note">
+                <label className="block" htmlFor="form-note">
                   Note:
                 </label>
                 <textarea className="rounded-lg border border-gray-300 p-16 w-full outline-none focus:border-aqua focus:bg-gray-100" id="form-note" type="text" name="note" placeholder="Hello there..." />
