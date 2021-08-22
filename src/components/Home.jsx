@@ -4,7 +4,6 @@ import Button from "./Button";
 import Footer from "./Footer";
 import Header from "./Header";
 import LineVertical from "./LineVertical";
-import Row from "./Row";
 import SubHeading from "./SubHeading";
 import LatestWork from "../latestWork";
 import Rounded from "./Rounded";
@@ -13,7 +12,7 @@ import { roundedClassNames } from "./roundedClassNames";
 const Home = () => (
   <>
     <Header />
-    <div className="space-y-256">
+    <div className="space-y-128 md:space-y-256">
       <div className="container">
         <BigHeading className="mb-64 max-w-screen-lg">
           <h1>Hello, I’m Patrick Hill, a product designer delivering user friendly solutions to challenging software problems.</h1>
@@ -34,7 +33,7 @@ const Home = () => (
                   <video class={`${roundedClassNames} max-w-2xl w-full`} loop autoPlay playsInline muted src="/assets/images/200504-093605.mp4" alt="Look Builder UI"></video>
                 </div>
               </div>
-              <div className="flex justify-between mt-32">
+              <div className="flex justify-between mt-32 space-x-8">
                 <div>
                   <SubHeading>
                     <h2>The Look Builder</h2>
