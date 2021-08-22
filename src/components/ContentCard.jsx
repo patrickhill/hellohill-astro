@@ -1,4 +1,5 @@
 import React from "react";
+import { roundedClassNames } from "./roundedClassNames";
 
 const ContentCard = ({ className = "", ...props }) => {
   return (
@@ -6,14 +7,14 @@ const ContentCard = ({ className = "", ...props }) => {
       className={`
         prose
         bg-white
-        rounded-xl
+        ${roundedClassNames}
         shadow-2xl
         p-32
         space-y-32
         w-full
         max-w-3xl
         mx-auto
-        sm:rounded-3xl sm:px-64 sm:pt-64 sm:pb-72
+        sm:px-64 sm:pt-64 sm:pb-72
         ${className}
       `}
     >

@@ -8,6 +8,7 @@ import Row from "./Row";
 import SubHeading from "./SubHeading";
 import LatestWork from "../latestWork";
 import Rounded from "./Rounded";
+import { roundedClassNames } from "./roundedClassNames";
 
 const Home = () => (
   <>
@@ -27,16 +28,22 @@ const Home = () => (
             <LineVertical className="flex-grow" />
           </div>
           <div>
-            <video class="rounded-xl sm:rounded-3xl max-w-2xl w-full" loop autoPlay playsInline muted src="/assets/images/200504-093605.mp4" alt="Look Builder UI"></video>
-            <div className="flex justify-between mt-32">
-              <div>
-                <SubHeading>
-                  <p>Case Study:</p>
-                </SubHeading>
-                <p className="text-white text-base font-light">Visualizing custom suit combinations</p>
+            <a href="/casestudies/lookbuilder" className={`p-16 ${roundedClassNames} block hover-3d hover:bg-gray-700 transition duration-300`}>
+              <div style={{ perspective: 800 }}>
+                <div className="hover-3d-target transition duration-[300ms] ease-out">
+                  <video class={`${roundedClassNames} max-w-2xl w-full`} loop autoPlay playsInline muted src="/assets/images/200504-093605.mp4" alt="Look Builder UI"></video>
+                </div>
               </div>
-              <Button href="/casestudies/lookbuilder">Read</Button>
-            </div>
+              <div className="flex justify-between mt-32">
+                <div>
+                  <SubHeading>
+                    <h2>The Look Builder</h2>
+                  </SubHeading>
+                  <p className="text-white text-base font-light">Visualizing custom suit combinations</p>
+                </div>
+                <Button>Read</Button>
+              </div>
+            </a>
           </div>
         </div>
       </div>

@@ -6,8 +6,9 @@
   let hoverEls = document.querySelectorAll(".hover-3d");
   hoverEls.forEach((hoverEl) => {
     let btnInterval;
+    var targetEl = hoverEl.querySelector('.hover-3d-target');
     hoverEl.addEventListener("mousemove", (e) => {
-      var rect = hoverEl.firstElementChild.getBoundingClientRect();
+      var rect = targetEl.getBoundingClientRect();
       x = e.clientX - rect.left;
       y = e.clientY - rect.top;
       elWidth = rect.width;
@@ -15,10 +16,10 @@
       rotation = 10;
       scaleY = scale(x, 0, elWidth, -rotation, rotation);
       scaleX = scale(y, 0, elHeight, rotation, -rotation);
-      hoverEl.firstElementChild.style.transform = `rotateY(${scaleY}deg) rotateX(${scaleX}deg)`;
+      targetEl.style.transform = `rotateY(${scaleY}deg) rotateX(${scaleX}deg)`;
     });
     hoverEl.addEventListener("mouseleave", (e) => {
-      hoverEl.firstElementChild.style.transform = `none`;
+      targetEl.style.transform = `none`;
     });
   });
 
