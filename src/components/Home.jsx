@@ -20,8 +20,8 @@ const Home = () => (
 
         <div className="flex flex-col md:flex-row justify-between items-stretch ">
           <div className="flex flex-col">
-            <SubHeading>
-              <h2 className="mb-32">Case Studies</h2>
+            <SubHeading as="h2" className="mb-32">
+              Case Studies
             </SubHeading>
 
             <LineVertical className="flex-grow" />
@@ -35,9 +35,7 @@ const Home = () => (
               </div>
               <div className="flex justify-between mt-32 space-x-8">
                 <div>
-                  <SubHeading>
-                    <h2>The Look Builder</h2>
-                  </SubHeading>
+                  <SubHeading as="h2">The Look Builder</SubHeading>
                   <p className="text-white text-base font-light">Visualizing custom suit combinations</p>
                 </div>
                 <Button>Read</Button>
@@ -48,9 +46,7 @@ const Home = () => (
       </div>
 
       <div className="container">
-        <SubHeading>
-          <h2>Miscellaneous Work</h2>
-        </SubHeading>
+        <SubHeading as="h2">Miscellaneous Work</SubHeading>
         <BigHeading as="p" className="mb-64 max-w-screen-lg">
           An assortment of past projects and personal work to give you a feel for what&nbsp;I&nbsp;do.
         </BigHeading>
