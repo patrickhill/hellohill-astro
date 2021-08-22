@@ -134,7 +134,7 @@ const LookBuilder = () => (
         </div>
         <div style={{ gridRow: "1/3" }} className={``}>
           <div className={`bg-white  overflow-hidden h-full ${roundedClassNames}`}>
-            <video poster="/assets/images/loading.png" className={`lazy-load ${roundedClassNames}  mx-auto`} autoPlay loop muted playsInline preload="metadata" data-src="/assets/images/suit-turntable.mp4#t=0.1"></video>
+            <video className={`lazy-load ${roundedClassNames}  mx-auto`} autoPlay loop muted playsInline preload="metadata" data-src="/assets/images/suit-turntable.mp4#t=0.1"></video>
           </div>
         </div>
       </div>
@@ -249,7 +249,7 @@ const LookBuilder = () => (
       </div>
 
       <div className={`video-callout w-full max-w-[1182px] mx-auto `}>
-        <video poster="/assets/images/loading.png" className={`lazy-load ${roundedClassNames}  mx-auto`} loop muted controls preload="metadata" data-src="/assets/images/lookbuilder-hero.mp4#t=0.1" alt={{ title }}></video>
+        <video className={`lazy-load ${roundedClassNames}  mx-auto`} loop muted controls preload="metadata" data-src="/assets/images/lookbuilder-hero.mp4#t=0.1" alt={{ title }}></video>
       </div>
 
       <ContentCard id="prototyping">
@@ -261,11 +261,11 @@ const LookBuilder = () => (
       </ContentCard>
 
       <div className={`video-callout w-full max-w-[400px] mx-auto `}>
-        <video poster="/assets/images/loading.png" className={`lazy-load ${roundedClassNames} mx-auto `} data-src="/assets/images/200402-194656.mp4#t=0.1" muted controls loop playsInline preload="metadata"></video>
+        <video className={`lazy-load ${roundedClassNames} mx-auto `} data-src="/assets/images/200402-194656.mp4#t=0.1" muted controls loop playsInline preload="metadata"></video>
       </div>
 
       <div className={`video-callout w-full max-w-[1182px] mx-auto `}>
-        <video poster="/assets/images/loading.png" className={`lazy-load ${roundedClassNames}  mx-auto`} width="1200" data-src="/assets/images/200330-073437_com.mp4#t=0.1" muted controls loop playsInline preload="metadata"></video>
+        <video className={`lazy-load ${roundedClassNames}  mx-auto`} width="1200" data-src="/assets/images/200330-073437_com.mp4#t=0.1" muted controls loop playsInline preload="metadata"></video>
       </div>
 
       <div className="w-full max-w-3xl mx-auto">
