@@ -41,10 +41,8 @@ const LookBuilder = () => (
     </div>
 
     <div className="space-y-64 sm:space-y-128 px-24 overflow-hidden">
-      <ContentCard>
-        <h2 className="mt-0" id="intro">
-          Intro
-        </h2>
+      <ContentCard id="intro">
+        <h2 className="mt-0">Intro</h2>
         <hr className="border-gray-300" />
 
         <h3>The Challenge</h3>
@@ -62,8 +60,8 @@ const LookBuilder = () => (
         </div>
       </ContentCard>
 
-      <ContentCard>
-        <h2 id="exploration">Exploration</h2>
+      <ContentCard id="exploration">
+        <h2>Exploration</h2>
         <hr className="border-gray-300" />
 
         <h3>Problems to Solve</h3>
@@ -167,8 +165,8 @@ const LookBuilder = () => (
         <p>I ended up creating an entire 3D rendering tool set. We had a master file for all the 3D fabric materials, files for each of the 3D models, and a master scene file that contained the studio setup. We got to the point where we could open terminal, type a line of code with the object name (e.g. bow tie) and material (e.g. pin dot fabric) and the computer would start spitting out images in the background!</p>
       </ContentCard>
 
-      <ContentCard>
-        <h2 id="process">UI Design Process</h2>
+      <ContentCard id="process">
+        <h2>UI Design Process</h2>
         <hr className="border-gray-300" />
         <p>The design process for this project was a ton of fun. We experimented a lot, shot for the moon, then backed off a little for something a little more reserved but functionally solid and user friendly.</p>
         <p>We worked in an agile environment so the same principles of morning standup, retros, etc. applied here. The details of the process consisted of a looping iteration of the following tasks:</p>
@@ -254,8 +252,8 @@ const LookBuilder = () => (
         <video poster="/assets/images/loading.png" className="lazy-load  mx-auto" loop muted controls preload="metadata" data-src="/assets/images/lookbuilder-hero.mp4#t=0.1" alt={{ title }}></video>
       </div>
 
-      <ContentCard>
-        <h2 id="prototyping">Prototyping</h2>
+      <ContentCard id="prototyping">
+        <h2>Prototyping</h2>
         <hr className="border-gray-300" />
 
         <h3>Pedal to the Metal!</h3>
@@ -302,8 +300,8 @@ const LookBuilder = () => (
         </ol>
       </ContentCard>
 
-      <ContentCard>
-        <h2 id="conclusion">Conclusion</h2>
+      <ContentCard id="conclusion">
+        <h2>Conclusion</h2>
         <hr className="border-gray-300" />
         <p>The final code base was handed off to the engineering team to integrate into the Gentux website. In the end, the UI team accomplished a staggering amount of great work over a relatively small amount of time.</p>
 

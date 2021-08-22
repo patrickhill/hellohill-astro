@@ -17,6 +17,7 @@ const ContentCard = ({ className = "", ...props }) => {
         sm:px-64 sm:pt-64 sm:pb-72
         ${className}
       `}
+      {...props}
     >
       {props.children}
     </div>
