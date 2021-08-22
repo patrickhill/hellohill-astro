@@ -12,8 +12,8 @@ const Footer = ({ className = "" }) => (
         <SubHeading>
           <h2>Hire Me</h2>
         </SubHeading>
-        <BigHeading className="max-w-screen-lg">
-          <p>UI design, motion, front-end development. If you need help, say&nbsp;hello!</p>
+        <BigHeading as="p" className="max-w-screen-lg">
+          UI design, motion, front-end development. If you need help, say&nbsp;hello!
         </BigHeading>
       </div>
       <div className="flex justify-between items-stretch">

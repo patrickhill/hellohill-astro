@@ -14,8 +14,8 @@ const Home = () => (
     <Header />
     <div className="space-y-128 md:space-y-256">
       <div className="container">
-        <BigHeading className="mb-64 max-w-screen-lg">
-          <h1>Hello, I’m Patrick Hill, a product designer delivering user friendly solutions to challenging software problems.</h1>
+        <BigHeading as="h1" className="mb-64 max-w-screen-lg">
+          Hello, I’m Patrick Hill, a product designer delivering user friendly solutions to challenging software problems.
         </BigHeading>
 
         <div className="flex flex-col md:flex-row justify-between items-stretch ">
@@ -51,8 +51,8 @@ const Home = () => (
         <SubHeading>
           <h2>Miscellaneous Work</h2>
         </SubHeading>
-        <BigHeading className="mb-64 max-w-screen-lg">
-          <p>An assortment of past projects and personal work to give you a feel for what&nbsp;I&nbsp;do.</p>
+        <BigHeading as="p" className="mb-64 max-w-screen-lg">
+          An assortment of past projects and personal work to give you a feel for what&nbsp;I&nbsp;do.
         </BigHeading>
 
         <div className="grid-misc grid grid-cols-1 md:grid-cols-2 gap-64 place-items-center">

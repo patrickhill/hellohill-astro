@@ -19,7 +19,7 @@ const LookBuilder = () => (
     <Header />
 
     <div className="container">
-      <BigHeading>The Look Builder</BigHeading>
+      <BigHeading as="h1">The Look Builder</BigHeading>
     </div>
 
     <div className="container bg-gray-800 sm:sticky top-0 z-50 mb-64 sm:mb-128 flex flex-wrap gap-x-16 gap-y-8 mt-16">
