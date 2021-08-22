@@ -119,3 +119,7 @@ video.blur {
   filter: blur(20px);
   transform: scale(2);
 }
+
+.will-change {
+  will-change: transform;
+}

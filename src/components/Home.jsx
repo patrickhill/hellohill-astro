@@ -27,9 +27,9 @@ const Home = () => (
             <LineVertical className="flex-grow" />
           </div>
           <div>
-            <a href="/casestudies/lookbuilder" className={`p-16 ${roundedClassNames} !overflow-visible block hover-3d hover:bg-gray-700 transition duration-300`} style={{ willChange: "transform" }}>
+            <a href="/casestudies/lookbuilder" className={`p-16 ${roundedClassNames} !overflow-visible block hover-3d hover:bg-gray-700 transition duration-300`}>
               <div style={{ perspective: 800 }}>
-                <div className="hover-3d-target transition duration-[300ms] ease-out">
+                <div className="hover-3d-target transition duration-[300ms] ease-out will-change">
                   <video className={`${roundedClassNames} max-w-2xl w-full`} loop autoPlay playsInline muted src="/assets/images/200504-093605.mp4" alt="Look Builder UI" />
                 </div>
               </div>
