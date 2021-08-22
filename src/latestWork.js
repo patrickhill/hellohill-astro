@@ -1,11 +1,11 @@
 const LatestWork = [
-  {
-    title: "Section Callout",
-    hero: "https://cdn.dribbble.com/users/195333/screenshots/6071835/20190223-100300.jpg",
-    heroType: "image",
-    url: "https://dribbble.com/shots/6071835-Section-Callout/attachments",
-    client: "250ok",
-  },
+  // {
+  //   title: "Section Callout",
+  //   hero: "https://cdn.dribbble.com/users/195333/screenshots/6071835/20190223-100300.jpg",
+  //   heroType: "image",
+  //   url: "https://dribbble.com/shots/6071835-Section-Callout/attachments",
+  //   client: "250ok",
+  // },
   {
     title: "FitPro App",
     hero: "/assets/images/210412-065841.mp4",
@@ -27,13 +27,13 @@ const LatestWork = [
     url: "https://dribbble.com/shots/15136740-Form-Components",
     client: "Generation Tux",
   },
-  {
-    title: "Graph Animation Exploration",
-    hero: "https://cdn.dribbble.com/users/195333/screenshots/5840021/190105-105657-20190114-160635_-_graph_animation_for_dribbble_2.gif",
-    heroType: "image",
-    url: "https://dribbble.com/shots/5840021-Graph-Animation-Exploration",
-    client: "250ok",
-  },
+  // {
+  //   title: "Graph Animation Exploration",
+  //   hero: "https://cdn.dribbble.com/users/195333/screenshots/5840021/190105-105657-20190114-160635_-_graph_animation_for_dribbble_2.gif",
+  //   heroType: "image",
+  //   url: "https://dribbble.com/shots/5840021-Graph-Animation-Exploration",
+  //   client: "250ok",
+  // },
   {
     title: "Multi Checkout",
     hero: "https://cdn.dribbble.com/users/195333/screenshots/11649679/media/e728a4551e596e93a80cd4ecba60f422.gif",
