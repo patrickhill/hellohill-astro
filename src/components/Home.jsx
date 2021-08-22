@@ -30,7 +30,7 @@ const Home = () => (
             <a href="/casestudies/lookbuilder" className={`p-16 ${roundedClassNames} !overflow-visible block hover-3d hover:bg-gray-700 transition duration-300`}>
               <div style={{ perspective: 800 }}>
                 <div className="hover-3d-target transition duration-[300ms] ease-out">
-                  <video className={`${roundedClassNames} max-w-2xl w-full`} loop autoPlay playsInline muted src="/assets/images/200504-093605.mp4" alt="Look Builder UI"></video>
+                  <video className={`${roundedClassNames} max-w-2xl w-full`} loop autoPlay playsInline muted src="/assets/images/200504-093605.mp4" alt="Look Builder UI" />
                 </div>
               </div>
               <div className="flex justify-between mt-32 space-x-8">
@@ -54,7 +54,7 @@ const Home = () => (
         <div className="grid-misc grid grid-cols-1 md:grid-cols-2 gap-64 place-items-center">
           {LatestWork.map((item, key) => (
             <div key={key}>
-              <Rounded>{item.heroType === "video" ? <video autoPlay loop playsInline muted poster="/assets/images/loading.png" data-src={`${item.hero}#t=0.1`} alt={item.title} className="lazy-load" preload="metadata" /> : <img src="/assets/images/loading.png" data-src={item.hero} alt={item.title} className="lazy-load" />}</Rounded>
+              <Rounded>{item.heroType === "video" ? <video autoPlay loop playsInline muted poster="/assets/images/loading.png" data-src={`${item.hero}#t=0.1`} alt={item.title} className="lazy-load" preload="metadata" /> : <img src="/assets/images/loading.png" data-src={item.hero} alt={item.title} className={`lazy-load ${roundedClassNames}`} />}</Rounded>
             </div>
           ))}
 
