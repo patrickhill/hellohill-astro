@@ -133,7 +133,7 @@ const LookBuilder = () => (
           <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/3d-suit-clay.jpg" />
         </div>
         <div style={{ gridRow: "1/3" }} className={``}>
-          <div className="bg-white  overflow-hidden h-full">
+          <div className={`bg-white  overflow-hidden h-full ${roundedClassNames}`}>
             <video poster="/assets/images/loading.png" className={`lazy-load ${roundedClassNames}  mx-auto`} autoPlay loop muted playsInline preload="metadata" data-src="/assets/images/suit-turntable.mp4#t=0.1"></video>
           </div>
         </div>
