@@ -53,8 +53,33 @@ const Home = () => (
 
         <div className="grid-misc grid grid-cols-1 md:grid-cols-2 gap-64 place-items-center">
           {LatestWork.map((item, key) => (
-            <div key={key}>
-              <Rounded>{item.heroType === "video" ? <video autoPlay loop playsInline muted poster="/assets/images/loading.png" data-src={`${item.hero}#t=0.1`} alt={item.title} className="lazy-load" preload="metadata" /> : <img src="/assets/images/loading.png" data-src={item.hero} alt={item.title} className={`lazy-load ${roundedClassNames}`} />}</Rounded>
+            <div className="overflow-hidden" key={key}>
+              {item.heroType === "video" ? (
+                <video
+                  autoPlay
+                  loop
+                  playsInline
+                  muted
+                  poster="/assets/images/loading.png"
+                  data-src={`${item.hero}#t=0.1`}
+                  alt={item.title}
+                  className={`
+                      lazy-load 
+                      ${roundedClassNames}
+                    `}
+                  preload="metadata"
+                />
+              ) : (
+                <img
+                  src="/assets/images/loading.png"
+                  data-src={item.hero}
+                  alt={item.title}
+                  className={`
+                      lazy-load 
+                      ${roundedClassNames}
+                    `}
+                />
+              )}
             </div>
           ))}
 
