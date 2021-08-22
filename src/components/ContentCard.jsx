@@ -4,6 +4,7 @@ const ContentCard = ({ className = "", ...props }) => {
   return (
     <div
       className={`
+        prose
         bg-white
         rounded-xl
         shadow-2xl
