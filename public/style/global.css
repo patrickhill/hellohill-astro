@@ -2,6 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
+.prose h1 {
+  @apply font-extralight;
+}
+.prose h2 {
+  @apply font-extralight;
+  @apply text-3xl;
+}
+.prose h3 {
+  @apply font-extralight;
+  @apply text-xl;
+}
+.prose h4 {
+  @apply font-normal;
+  @apply text-base;
+}
+.prose h5 {
+  @apply font-extralight;
+}
+.prose h6 {
+  @apply font-extralight;
+}
+.prose p {
+  @apply font-extralight;
+  @apply text-base;
+}
+.prose ol,
+.prose ul {
+  @apply text-base;
+  @apply font-extralight;
+  @apply list-outside;
+  @apply ml-24;
+  @apply md:ml-0;
+}
+.prose ul {
+  @apply list-disc;
+}
+.prose ol {
+  @apply list-decimal;
+}
+.prose li {
+  @apply font-extralight;
+}
+
 .text-clip {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
