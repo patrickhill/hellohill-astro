@@ -19,7 +19,7 @@ const Home = () => (
           <h1>Hello, I’m Patrick Hill, a product designer delivering user friendly solutions to challenging software problems.</h1>
         </BigHeading>
 
-        <div className="flex justify-between items-stretch ">
+        <div className="flex flex-col md:flex-row justify-between items-stretch ">
           <div className="flex flex-col">
             <SubHeading>
               <h2 className="mb-32">Case Studies</h2>
