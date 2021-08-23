@@ -19,7 +19,7 @@ const Footer = ({ className = "" }) => (
       <div className="flex justify-between items-stretch">
         <LineVertical />
 
-        <Rounded className="bg-white text-gray-800 p-32 sm:p-40 w-full sm:max-w-lg sm:ml-64">
+        <Rounded className="bg-white text-gray-800 p-32 sm:p-40 w-full sm:max-w-2xl sm:ml-64">
           <form name="contact" netlify="">
             <div className=" flex flex-col space-y-24 ">
               <div className="space-y-8">
