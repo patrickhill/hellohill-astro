@@ -123,3 +123,10 @@ video.blur {
 .will-change {
   will-change: transform;
 }
+
+input,
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
