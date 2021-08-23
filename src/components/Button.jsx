@@ -1,8 +1,11 @@
 import React from "react";
 import { roundedClassNames } from "./roundedClassNames";
 
-const Button = ({ className = "", ...props }) => {
+const Button = ({ big, className = "", ...props }) => {
+  let bigClassNames = big ? "py-32 text-lg" : "py-8 sm:py-16 text-base";
+
   let baseClassNames = `
+    ${bigClassNames}
     ${roundedClassNames}
     bg-gradient-brand
     bg-full
@@ -11,11 +14,10 @@ const Button = ({ className = "", ...props }) => {
     transition-all
     duration-150
     px-16 sm:px-32
-    py-8 sm:py-16
     flex
     justify-center
     items-center
-    font-light text-base
+    font-extralight 
   `;
 
   return props.href ? (

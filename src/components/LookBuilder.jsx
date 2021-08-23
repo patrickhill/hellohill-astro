@@ -269,7 +269,7 @@ const LookBuilder = () => (
       </div>
 
       <div className="w-full max-w-3xl mx-auto">
-        <Button target="_blank" href="https://proto-moria.netlify.com/">
+        <Button big target="_blank" href="https://proto-moria.netlify.com/">
           View the Live Prototype
         </Button>
       </div>
@@ -314,7 +314,7 @@ const LookBuilder = () => (
       </ContentCard>
 
       <div className="w-full max-w-3xl mx-auto">
-        <Button target="_blank" href="https://www.generationtux.com/app/customize?bundle_ids=112&sidecar=list&product_skus=330914WHT%2C911246PLM%2C430464BLW%2C610158WHT%2C030088SLV%2CB10903BWN%2CA10186BRA%2C881007BLB">
+        <Button big target="_blank" href="https://www.generationtux.com/app/customize?bundle_ids=112&sidecar=list&product_skus=330914WHT%2C911246PLM%2C430464BLW%2C610158WHT%2C030088SLV%2CB10903BWN%2CA10186BRA%2C881007BLB">
           View the Final Product
         </Button>
       </div>
