@@ -26,7 +26,24 @@ const Home = () => (
 
             <LineVertical className="flex-grow" />
           </div>
-          <div>
+          <div className="space-y-64">
+            <div className="max-w-2xl rounded-[1.1rem] sm:rounded-[1.9rem] bg-gray-700 p-2">
+              <div className={`p-16 sm:p-24 rounded-[1.05rem] sm:rounded-[1.85rem] bg-gray-800 !overflow-visible block hover:cursor-auto`}>
+                <div style={{ perspective: 800 }}>
+                  <div className="hover-3d-target transition duration-[300ms] ease-out will-change">
+                    <img className={`${roundedClassNames} w-full`} src="/assets/images/zenti-hh-hero.jpg" alt="Zenti Timer Screenshot" />
+                  </div>
+                </div>
+                <div className="flex justify-between mt-32 space-x-8">
+                  <div>
+                    <SubHeading as="h2">Zenti</SubHeading>
+                    <p className="text-white text-base font-light">A simple meditation timer</p>
+                  </div>
+                  <div className={`${roundedClassNames} text-gray-200 bg-gray-700 px-16 sm:px-32 flex justify-center items-center font-extralight `}>Coming Soon</div>
+                </div>
+              </div>
+            </div>
+
             <div className="max-w-2xl rounded-[1.1rem] sm:rounded-[1.9rem] bg-gradient-brand p-2">
               <a href="/casestudies/lookbuilder" className={`p-16 sm:p-24 rounded-[1.05rem] sm:rounded-[1.85rem] bg-gray-800 !overflow-visible block hover-3d   hover:bg-gray-700 transition duration-300`}>
                 <div style={{ perspective: 800 }}>
