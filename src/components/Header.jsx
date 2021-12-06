@@ -8,7 +8,7 @@ const Header = () => (
         <img className="inline-block" src="/assets/images/logo.svg" alt="Hello Hill Logo" />
       </a>
 
-      <Button href="#footer">Contact</Button>
+      <Button href="#footer">Say Hello</Button>
     </div>
   </>
 );
