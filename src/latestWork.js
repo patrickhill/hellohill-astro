@@ -7,6 +7,13 @@ const LatestWork = [
   //   client: "250ok",
   // },
   {
+    title: "Stakburn App Icon",
+    hero: "https://cdn.dribbble.com/users/195333/screenshots/17033145/media/0612c01ab47e2a0dba37916e438e5d98.png",
+    heroType: "image",
+    url: "https://dribbble.com/shots/17033145-App-Icon",
+    client: "Stakburn",
+  },
+  {
     title: "FitPro App",
     hero: "/assets/images/210412-065841.mp4",
     heroType: "video",
@@ -74,13 +81,6 @@ const LatestWork = [
     hero: "https://cdn.dribbble.com/users/195333/screenshots/4735903/20180621-174908-suits.gif",
     heroType: "image",
     url: "https://dribbble.com/shots/4735903-Perfect-Your-Style",
-    client: "Generation Tux",
-  },
-  {
-    title: "Warehouse App",
-    hero: "https://cdn.dribbble.com/users/195333/screenshots/3745331/170614a-warehouse-dribbble-2017-08-18-11.40.38.gif",
-    heroType: "image",
-    url: "https://dribbble.com/shots/3745331-Warehouse-App",
     client: "Generation Tux",
   },
   {
