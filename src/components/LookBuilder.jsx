@@ -14,6 +14,19 @@ const tags = "caseStudy";
 const layout = "caseStudyLayout.html";
 const date = "2020-03-28";
 
+const ImageBlock = ({ ...props }) => (
+  <div style={{ "-webkit-mask-image": "-webkit-radial-gradient(white, black)" }} className={`${roundedClassNames} overflow-hidden ${props.className ? props.className : ""}`}>
+    <img className={`lazy-load `} loading="lazy" src={props.src} />
+  </div>
+);
+const VideoBlock = ({ ...props }) => (
+  <div className={`${props.className ? props.className : ""}`}>
+    <div style={{ "-webkit-mask-image": "-webkit-radial-gradient(white, black)" }} className={`${roundedClassNames} overflow-hidden bg-white h-full ${props.className ? props.className : ""}`}>
+      <video className={`lazy-load mx-auto`} autoPlay loop muted playsInline preload="metadata" loading="lazy" src={props.src}></video>
+    </div>
+  </div>
+);
+
 const LookBuilder = () => (
   <>
     <Header />
@@ -72,45 +85,23 @@ const LookBuilder = () => (
 
       <div>
         <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
-          <div style={{ gridRow: "1/3" }} className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/layer-stack-illustration.jpg" />
-          </div>
-          <div style={{ gridRow: "1/3" }} className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/photo-setup-illustration.jpg" />
-          </div>
-          <div style={{ gridRow: "1/3" }} className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/IMG_2004.jpg" />
-          </div>
+          <ImageBlock src="/assets/images/layer-stack-illustration.jpg" className="row-start-1 row-end-3" />
+          <ImageBlock src="/assets/images/photo-setup-illustration.jpg" className="row-start-1 row-end-3" />
+          <ImageBlock src="/assets/images/IMG_2004.jpg" className="row-start-1 row-end-3" />
         </div>
 
         <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
-          <div style={{ gridColumn: 1 }} className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/IMG_1818.jpg" />
-          </div>
-          <div style={{ gridColumn: 1 }} className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/IMG_1820.jpg" />
-          </div>
-          <div style={{ gridRow: "1/3", gridColumn: "3/4" }} className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/IMG_1746.jpg" />
-          </div>
-          <div style={{ gridRow: "1/3", gridColumn: "2/3" }} className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/IMG_1838.jpg" />
-          </div>
+          <ImageBlock src="/assets/images/IMG_1818.jpg" className="col-start-1" />
+          <ImageBlock src="/assets/images/IMG_1820.jpg" className="col-start-1" />
+          <ImageBlock src="/assets/images/IMG_1746.jpg" className="row-start-1 row-end-3 col-start-3 col-end-4" />
+          <ImageBlock src="/assets/images/IMG_1838.jpg" className="row-start-1 row-end-3 col-start-2 col-end-3" />
         </div>
 
         <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
-          <div style={{ gridRow: "1/3" }} className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/photoshop-retouch.gif" />
-          </div>
-          <div style={{ gridRow: "1/3" }} className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/suit-photo-back.jpg" />
-          </div>
-          <div className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/tie-stack.jpg" />
-          </div>
-          <div className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/ties.jpg" />
-          </div>
+          <ImageBlock src="/assets/images/photoshop-retouch.gif" className="row-start-1 row-end-3" />
+          <ImageBlock src="/assets/images/suit-photo-back.jpg" className="row-start-1 row-end-3" />
+          <ImageBlock src="/assets/images/tie-stack.jpg" />
+          <ImageBlock src="/assets/images/ties.jpg" />
         </div>
       </div>
 
@@ -126,17 +117,9 @@ const LookBuilder = () => (
       </ContentCard>
 
       <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
-        <div style={{ gridRow: "1/3" }} className={``}>
-          <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/suit-wireframe.jpg" />
-        </div>
-        <div style={{ gridRow: "1/3" }} className={``}>
-          <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/3d-suit-clay.jpg" />
-        </div>
-        <div style={{ gridRow: "1/3" }} className={``}>
-          <div className={`bg-white  overflow-hidden h-full ${roundedClassNames}`}>
-            <video className={`lazy-load ${roundedClassNames}  mx-auto`} autoPlay loop muted playsInline preload="metadata" data-src="/assets/images/suit-turntable.mp4#t=0.1"></video>
-          </div>
-        </div>
+        <ImageBlock src="/assets/images/suit-wireframe.jpg" className="row-start-1 row-end-3" />
+        <ImageBlock src="/assets/images/3d-suit-clay.jpg" className="row-start-1 row-end-3" />
+        <VideoBlock src="/assets/images/suit-turntable.mp4#t=0.1" className="row-start-1 row-end-3" />
       </div>
 
       <ContentCard>
@@ -152,12 +135,8 @@ const LookBuilder = () => (
       </ContentCard>
 
       <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
-        <div style={{ gridRow: "1/3", gridColumn: "1/3" }} className={``}>
-          <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/200329-144241.jpg" />
-        </div>
-        <div style={{ gridRow: "1/3" }} className={``}>
-          <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/200329-144245.jpg" />
-        </div>
+        <ImageBlock src="/assets/images/200329-144241.jpg" className="row-start-1 row-end-3 col-start-1 col-end-3" />
+        <ImageBlock src="/assets/images/200329-144245.jpg" className="row-start-1 row-end-3" />
       </div>
 
       <ContentCard>
@@ -179,77 +158,43 @@ const LookBuilder = () => (
       </ContentCard>
 
       <div>
-        <div className={`w-full max-w-[1182px] mx-auto `}>
-          <img className={`lazy-load ${roundedClassNames} mx-auto`} src="/assets/images/loading.png" data-src="/assets/images/look-builder-sketch-1.jpg" />
+        <div className={`case-study-grid-images w-full max-w-[1182px] mx-auto`}>
+          <ImageBlock src="/assets/images/look-builder-sketch-1.jpg" className="row-start-1 row-end-3 col-start-1 col-end-4" />
         </div>
 
         <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
-          <div style={{ gridRow: "1/3" }} className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/look-builder-sketch-2.jpg" />
-          </div>
-          <div style={{ gridRow: "1/3" }} className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/look-builder-sketch-3.jpg" />
-          </div>
-          <div className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/look-builder-sketch-4.jpg" />
-          </div>
-          <div className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/look-builder-sketch-5.jpg" />
-          </div>
+          <ImageBlock src="/assets/images/look-builder-sketch-2.jpg" className="row-start-1 row-end-3" />
+          <ImageBlock src="/assets/images/look-builder-sketch-3.jpg" className="row-start-1 row-end-3" />
+          <ImageBlock src="/assets/images/look-builder-sketch-4.jpg" className="" />
+          <ImageBlock src="/assets/images/look-builder-sketch-5.jpg" className="" />
         </div>
 
         <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
-          <div style={{ gridColumn: 1 }} className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/look-builder-sketch-6.jpg" />
-          </div>
-          <div style={{ gridColumn: 1 }} className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/look-builder-sketch-7.jpg" />
-          </div>
-          <div style={{ gridRow: "1/3", gridColumn: "3/4" }} className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/look-builder-sketch-8.jpg" />
-          </div>
-          <div style={{ gridRow: "1/3", gridColumn: "2/3" }} className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/look-builder-sketch-9.jpg" />
-          </div>
+          <ImageBlock src="/assets/images/look-builder-sketch-6.jpg" className="col-start-1" />
+          <ImageBlock src="/assets/images/look-builder-sketch-7.jpg" className="col-start-1" />
+          <ImageBlock src="/assets/images/look-builder-sketch-8.jpg" className="row-start-1 row-end-3 col-start-3 col-end-4" />
+          <ImageBlock src="/assets/images/look-builder-sketch-9.jpg" className="row-start-1 row-end-3 col-start-2 col-end-3" />
         </div>
 
-        <div className="case-study-grid-images w-full max-w-[1182px] mx-auto" style={{ gridTemplateRows: "1fr" }}>
-          <div className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/ui-iterations-1.jpg" />
-          </div>
-          <div className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/ui-iterations-2.jpg" />
-          </div>
-          <div className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/ui-iterations-3.jpg" />
-          </div>
+        <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
+          <ImageBlock src="/assets/images/ui-iterations-1.jpg" className="row-span-2" />
+          <ImageBlock src="/assets/images/ui-iterations-2.jpg" className="row-span-2" />
+          <ImageBlock src="/assets/images/ui-iterations-3.jpg" className="row-span-2" />
         </div>
-        <div className="case-study-grid-images w-full max-w-[1182px] mx-auto" style={{ gridTemplateRows: "1fr" }}>
-          <div className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/ui-iterations-4.jpg" />
-          </div>
-          <div className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/ui-iterations-5.jpg" />
-          </div>
-          <div className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/ui-iterations-6.jpg" />
-          </div>
+        <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
+          <ImageBlock src="/assets/images/ui-iterations-4.jpg" className="row-span-2" />
+          <ImageBlock src="/assets/images/ui-iterations-5.jpg" className="row-span-2" />
+          <ImageBlock src="/assets/images/ui-iterations-6.jpg" className="row-span-2" />
         </div>
-        <div className="case-study-grid-images w-full max-w-[1182px] mx-auto" style={{ gridTemplateRows: "1fr" }}>
-          <div className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/ui-iterations-7.jpg" />
-          </div>
-          <div className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/ui-iterations-8.jpg" />
-          </div>
-          <div className={``}>
-            <img className={`lazy-load ${roundedClassNames} `} src="/assets/images/loading.png" data-src="/assets/images/ui-iterations-9.jpg" />
-          </div>
+        <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
+          <ImageBlock src="/assets/images/ui-iterations-7.jpg" className="row-span-2" />
+          <ImageBlock src="/assets/images/ui-iterations-8.jpg" className="row-span-2" />
+          <ImageBlock src="/assets/images/ui-iterations-9.jpg" className="row-span-2" />
         </div>
       </div>
 
-      <div className={`video-callout w-full max-w-[1182px] mx-auto `}>
-        <video className={`lazy-load ${roundedClassNames}  mx-auto`} loop muted controls preload="metadata" data-src="/assets/images/lookbuilder-hero.mp4#t=0.1" alt={{ title }}></video>
+      <div className={`w-full max-w-[1182px] mx-auto `}>
+        <VideoBlock src="/assets/images/lookbuilder-hero.mp4#t=0.1" />
       </div>
 
       <ContentCard id="prototyping">
@@ -261,11 +206,11 @@ const LookBuilder = () => (
       </ContentCard>
 
       <div className={`video-callout w-full max-w-[400px] mx-auto `}>
-        <video className={`lazy-load ${roundedClassNames} mx-auto `} data-src="/assets/images/200402-194656.mp4#t=0.1" muted controls loop playsInline preload="metadata"></video>
+        <VideoBlock src="/assets/images/200402-194656.mp4#t=0.1" />
       </div>
 
       <div className={`video-callout w-full max-w-[1182px] mx-auto `}>
-        <video className={`lazy-load ${roundedClassNames}  mx-auto`} width="1200" data-src="/assets/images/200330-073437_com.mp4#t=0.1" muted controls loop playsInline preload="metadata"></video>
+        <VideoBlock src="/assets/images/200330-073437_com.mp4#t=0.1" className="w-[1200px] max-w-full" />
       </div>
 
       <div className="w-full max-w-3xl mx-auto">
@@ -287,7 +232,7 @@ const LookBuilder = () => (
       </ContentCard>
 
       <div className={`video-callout w-full max-w-[1182px] mx-auto  `}>
-        <img className={`lazy-load ${roundedClassNames} mx-auto`} src="/assets/images/loading.png" data-src="/assets/images/200330-172519.jpg" />
+        <ImageBlock className="opacity-100" src="/assets/images/200330-172519.jpg" />
       </div>
 
       <ContentCard>
