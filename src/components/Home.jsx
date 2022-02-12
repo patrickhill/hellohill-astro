@@ -72,7 +72,7 @@ const Home = () => (
 
         <div className="grid-misc grid grid-cols-1 md:grid-cols-2 gap-64 place-items-center">
           {LatestWork.map((item, key) => (
-            <div className="overflow-hidden" key={key}>
+            <div style={{ "-webkit-mask-image": "-webkit-radial-gradient(white, black)" }} className={`overflow-hidden ${roundedClassNames}`} key={key}>
               {item.heroType === "video" ? (
                 <video
                   autoPlay
@@ -80,22 +80,22 @@ const Home = () => (
                   playsInline
                   muted
                   poster="/assets/images/loading.png"
-                  data-src={`${item.hero}#t=0.1`}
+                  src={`${item.hero}#t=0.1`}
                   alt={item.title}
                   className={`
                       lazy-load 
-                      ${roundedClassNames}
+
                     `}
                   preload="metadata"
+                  loading="lazy"
                 />
               ) : (
                 <img
-                  src="/assets/images/loading.png"
-                  data-src={item.hero}
+                  loading="lazy"
+                  src={item.hero}
                   alt={item.title}
                   className={`
                       lazy-load 
-                      ${roundedClassNames}
                     `}
                 />
               )}
