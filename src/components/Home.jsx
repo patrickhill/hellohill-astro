@@ -31,7 +31,7 @@ const Home = () => (
               <a href="/casestudies/lookbuilder" className={`hover-3d block !overflow-visible rounded-[1.05rem] bg-gray-800 p-16 transition duration-300   hover:bg-gray-700 sm:rounded-[1.85rem] sm:p-24`}>
                 <div style={{ perspective: 2000 }}>
                   <div className="hover-3d-target will-change transition duration-[300ms] ease-out">
-                    <video className={`${roundedClassNames} w-full`} loop autoPlay playsInline muted src="/assets/images/200504-093605.mp4" alt="Look Builder UI" />
+                    <video className={`${roundedClassNames} w-full`} loop autoPlay playsInline muted src="https://res.cloudinary.com/dl4btvfxp/video/upload/v1644700337/home/200504-093605_dev8kc.mp4" alt="Look Builder UI" />
                   </div>
                 </div>
                 <div className="mt-32 flex justify-between space-x-8">
@@ -48,7 +48,7 @@ const Home = () => (
               <div className={`block !overflow-visible rounded-[1.05rem] bg-gray-800 p-16 hover:cursor-auto sm:rounded-[1.85rem] sm:p-24`}>
                 <div style={{ perspective: 2000 }}>
                   <div className="hover-3d-target will-change transition duration-[300ms] ease-out">
-                    <img className={`${roundedClassNames} w-full`} src="/assets/images/zenti-hh-hero.jpg" alt="Zenti Timer Screenshot" />
+                    <img className={`${roundedClassNames} w-full`} src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644700336/home/zenti-hh-hero_anbsvf.jpg" alt="Zenti Timer Screenshot" />
                   </div>
                 </div>
                 <div className="mt-32 flex justify-between space-x-8">

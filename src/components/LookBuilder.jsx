@@ -8,8 +8,8 @@ import { roundedClassNames } from "./roundedClassNames";
 
 const title = "The Look Builder";
 const desc = "Visualizing custom suit combinations";
-const heroImageUrl = "/assets/images/lookbuilder-hero.jpg";
-const heroVideoUrl = "/assets/images/200504-093605.mp4";
+const heroImageUrl = "https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/lookbuilder-hero_zabett.jpg";
+const heroVideoUrl = "https://res.cloudinary.com/dl4btvfxp/video/upload/v1644700337/home/200504-093605_dev8kc.mp4";
 const tags = "caseStudy";
 const layout = "caseStudyLayout.html";
 const date = "2020-03-28";
@@ -21,7 +21,7 @@ const ImageBlock = ({ ...props }) => (
 );
 const VideoBlock = ({ ...props }) => (
   <div className={`${props.className ? props.className : ""}`}>
-    <div style={{ "-webkit-mask-image": "-webkit-radial-gradient(white, black)" }} className={`${roundedClassNames} overflow-hidden bg-white h-full ${props.className ? props.className : ""}`}>
+    <div style={{ "-webkit-mask-image": "-webkit-radial-gradient(white, black)" }} className={`${roundedClassNames} h-full overflow-hidden bg-white ${props.className ? props.className : ""}`}>
       <video className={`lazy-load mx-auto`} autoPlay loop muted playsInline preload="metadata" loading="lazy" src={props.src}></video>
     </div>
   </div>
@@ -35,7 +35,7 @@ const LookBuilder = () => (
       <BigHeading as="h1">The Look Builder</BigHeading>
     </div>
 
-    <div className="container bg-gray-800 sm:sticky top-0 z-50 mb-64 sm:mb-128 flex flex-wrap gap-x-16 gap-y-8 mt-16">
+    <div className="container top-0 z-50 mb-64 mt-16 flex flex-wrap gap-x-16 gap-y-8 bg-gray-800 sm:sticky sm:mb-128">
       <a className="inline-block text-gray-500 hover:text-white" href="#intro">
         Intro
       </a>
@@ -53,7 +53,7 @@ const LookBuilder = () => (
       </a>
     </div>
 
-    <div className="space-y-64 sm:space-y-128 px-24 overflow-hidden">
+    <div className="space-y-64 overflow-hidden px-24 sm:space-y-128">
       <ContentCard id="intro">
         <h2 className="mt-0">Intro</h2>
         <hr className="border-gray-300" />
@@ -61,7 +61,7 @@ const LookBuilder = () => (
         <h3>The Challenge</h3>
         <p>Create a way for customers to visualize thousands of suit, tux, tie and accessory combinations for Generation Tux, an online tuxedo rental company. Gentux has no brick and mortar stores so this UI will be the primary way customers interact with the product. The company also runs multiple brands so the work needs to be reusable.</p>
         <h3>Details</h3>
-        <div className="bg-gray-100 p-32 flex flex-col sm:grid gap-8 sm:gap-16 rounded-b-lg sm:rounded-b-2xl" style={{ gridTemplateColumns: "auto auto" }}>
+        <div className="flex flex-col gap-8 rounded-b-lg bg-gray-100 p-32 sm:grid sm:gap-16 sm:rounded-b-2xl" style={{ gridTemplateColumns: "auto auto" }}>
           <h4>Resources:</h4>
           <p>3-6 person ui team of designers and engineers. Limited budget with no outside resources for assets like photographers.</p>
 
@@ -84,24 +84,24 @@ const LookBuilder = () => (
       </ContentCard>
 
       <div>
-        <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
-          <ImageBlock src="/assets/images/layer-stack-illustration.jpg" className="row-start-1 row-end-3" />
-          <ImageBlock src="/assets/images/photo-setup-illustration.jpg" className="row-start-1 row-end-3" />
-          <ImageBlock src="/assets/images/IMG_2004.jpg" className="row-start-1 row-end-3" />
+        <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/layer-stack-illustration_pshrve.jpg" className="row-start-1 row-end-3" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/photo-setup-illustration_rcjblx.jpg" className="row-start-1 row-end-3" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/IMG_2004_jwjlmf.jpg" className="row-start-1 row-end-3" />
         </div>
 
-        <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
-          <ImageBlock src="/assets/images/IMG_1818.jpg" className="col-start-1" />
-          <ImageBlock src="/assets/images/IMG_1820.jpg" className="col-start-1" />
-          <ImageBlock src="/assets/images/IMG_1746.jpg" className="row-start-1 row-end-3 col-start-3 col-end-4" />
-          <ImageBlock src="/assets/images/IMG_1838.jpg" className="row-start-1 row-end-3 col-start-2 col-end-3" />
+        <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/IMG_1818_ol572f.jpg" className="col-start-1" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/IMG_1820_ykizln.jpg" className="col-start-1" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/IMG_1746_rlcyj0.jpg" className="col-start-3 col-end-4 row-start-1 row-end-3" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/IMG_1838_aczw3w.jpg" className="col-start-2 col-end-3 row-start-1 row-end-3" />
         </div>
 
-        <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
-          <ImageBlock src="/assets/images/photoshop-retouch.gif" className="row-start-1 row-end-3" />
-          <ImageBlock src="/assets/images/suit-photo-back.jpg" className="row-start-1 row-end-3" />
-          <ImageBlock src="/assets/images/tie-stack.jpg" />
-          <ImageBlock src="/assets/images/ties.jpg" />
+        <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/photoshop-retouch_d5rkm1.gif" className="row-start-1 row-end-3" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701685/look%20builder/suit-photo-back_cenjtt.jpg" className="row-start-1 row-end-3" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701685/look%20builder/tie-stack_jpmbsh.jpg" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701685/look%20builder/ties_yrixuy.jpg" />
         </div>
       </div>
 
@@ -116,10 +116,10 @@ const LookBuilder = () => (
         <p>There were some benefits to 3D rendering though. We could change camera angles and lighting, we could improving the quality over time, and base 3d models could be reused for different material types. We decided to give it a shot.</p>
       </ContentCard>
 
-      <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
-        <ImageBlock src="/assets/images/suit-wireframe.jpg" className="row-start-1 row-end-3" />
-        <ImageBlock src="/assets/images/3d-suit-clay.jpg" className="row-start-1 row-end-3" />
-        <VideoBlock src="/assets/images/suit-turntable.mp4#t=0.1" className="row-start-1 row-end-3" />
+      <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
+        <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701685/look%20builder/suit-wireframe_kdqfcb.jpg" className="row-start-1 row-end-3" />
+        <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/3d-suit-clay_qj4vr7.jpg" className="row-start-1 row-end-3" />
+        <VideoBlock src="https://res.cloudinary.com/dl4btvfxp/video/upload/v1644701695/look%20builder/suit-turntable_r2rbor.mp4#t=0.1" className="row-start-1 row-end-3" />
       </div>
 
       <ContentCard>
@@ -134,9 +134,9 @@ const LookBuilder = () => (
         </p>
       </ContentCard>
 
-      <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
-        <ImageBlock src="/assets/images/200329-144241.jpg" className="row-start-1 row-end-3 col-start-1 col-end-3" />
-        <ImageBlock src="/assets/images/200329-144245.jpg" className="row-start-1 row-end-3" />
+      <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
+        <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/200329-144241_ms7mex.jpg" className="col-start-1 col-end-3 row-start-1 row-end-3" />
+        <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/200329-144245_qzlxvm.jpg" className="row-start-1 row-end-3" />
       </div>
 
       <ContentCard>
@@ -158,43 +158,43 @@ const LookBuilder = () => (
       </ContentCard>
 
       <div>
-        <div className={`case-study-grid-images w-full max-w-[1182px] mx-auto`}>
-          <ImageBlock src="/assets/images/look-builder-sketch-1.jpg" className="row-start-1 row-end-3 col-start-1 col-end-4" />
+        <div className={`case-study-grid-images mx-auto w-full max-w-[1182px]`}>
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/look-builder-sketch-1_o4tntx.jpg" className="col-start-1 col-end-4 row-start-1 row-end-3" />
         </div>
 
-        <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
-          <ImageBlock src="/assets/images/look-builder-sketch-2.jpg" className="row-start-1 row-end-3" />
-          <ImageBlock src="/assets/images/look-builder-sketch-3.jpg" className="row-start-1 row-end-3" />
-          <ImageBlock src="/assets/images/look-builder-sketch-4.jpg" className="" />
-          <ImageBlock src="/assets/images/look-builder-sketch-5.jpg" className="" />
+        <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/look-builder-sketch-2_rwaigd.jpg" className="row-start-1 row-end-3" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/look-builder-sketch-3_z75pi8.jpg" className="row-start-1 row-end-3" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/look-builder-sketch-4_bzaqsm.jpg" className="" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/look-builder-sketch-5_wts0ms.jpg" className="" />
         </div>
 
-        <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
-          <ImageBlock src="/assets/images/look-builder-sketch-6.jpg" className="col-start-1" />
-          <ImageBlock src="/assets/images/look-builder-sketch-7.jpg" className="col-start-1" />
-          <ImageBlock src="/assets/images/look-builder-sketch-8.jpg" className="row-start-1 row-end-3 col-start-3 col-end-4" />
-          <ImageBlock src="/assets/images/look-builder-sketch-9.jpg" className="row-start-1 row-end-3 col-start-2 col-end-3" />
+        <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/look-builder-sketch-6_n5uiyf.jpg" className="col-start-1" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/look-builder-sketch-7_okc7rh.jpg" className="col-start-1" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/look-builder-sketch-8_yhf3b7.jpg" className="col-start-3 col-end-4 row-start-1 row-end-3" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/look-builder-sketch-9_jez1km.jpg" className="col-start-2 col-end-3 row-start-1 row-end-3" />
         </div>
 
-        <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
-          <ImageBlock src="/assets/images/ui-iterations-1.jpg" className="row-span-2" />
-          <ImageBlock src="/assets/images/ui-iterations-2.jpg" className="row-span-2" />
-          <ImageBlock src="/assets/images/ui-iterations-3.jpg" className="row-span-2" />
+        <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701685/look%20builder/ui-iterations-1_dv6eam.jpg" className="row-span-2" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701685/look%20builder/ui-iterations-2_rpfdfv.jpg" className="row-span-2" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701685/look%20builder/ui-iterations-3_iyhioy.jpg" className="row-span-2" />
         </div>
-        <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
-          <ImageBlock src="/assets/images/ui-iterations-4.jpg" className="row-span-2" />
-          <ImageBlock src="/assets/images/ui-iterations-5.jpg" className="row-span-2" />
-          <ImageBlock src="/assets/images/ui-iterations-6.jpg" className="row-span-2" />
+        <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701686/look%20builder/ui-iterations-4_sn4zty.jpg" className="row-span-2" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701686/look%20builder/ui-iterations-5_jqbwie.jpg" className="row-span-2" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701686/look%20builder/ui-iterations-6_k2dd9v.jpg" className="row-span-2" />
         </div>
-        <div className="case-study-grid-images w-full max-w-[1182px] mx-auto">
-          <ImageBlock src="/assets/images/ui-iterations-7.jpg" className="row-span-2" />
-          <ImageBlock src="/assets/images/ui-iterations-8.jpg" className="row-span-2" />
-          <ImageBlock src="/assets/images/ui-iterations-9.jpg" className="row-span-2" />
+        <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701686/look%20builder/ui-iterations-7_z8lsmf.jpg" className="row-span-2" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701686/look%20builder/ui-iterations-8_bgmrmu.jpg" className="row-span-2" />
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701686/look%20builder/ui-iterations-9_zueviq.jpg" className="row-span-2" />
         </div>
       </div>
 
-      <div className={`w-full max-w-[1182px] mx-auto `}>
-        <VideoBlock src="/assets/images/lookbuilder-hero.mp4#t=0.1" />
+      <div className={`mx-auto w-full max-w-[1182px] `}>
+        <VideoBlock src="https://res.cloudinary.com/dl4btvfxp/video/upload/v1644701690/look%20builder/lookbuilder-hero_cos46b.mp4#t=0.1" />
       </div>
 
       <ContentCard id="prototyping">
@@ -205,15 +205,15 @@ const LookBuilder = () => (
         <p>Once we felt like things were starting to mesh and we had stakeholder sign off on the feature set, we began building a fully functional, data backed prototype with React. At this point, there's still a ton of design refinement happening. Many details of a design don't really make sense until you get them working in code.</p>
       </ContentCard>
 
-      <div className={`video-callout w-full max-w-[400px] mx-auto `}>
-        <VideoBlock src="/assets/images/200402-194656.mp4#t=0.1" />
+      <div className={`video-callout mx-auto w-full max-w-[400px] `}>
+        <VideoBlock src="https://res.cloudinary.com/dl4btvfxp/video/upload/v1644701692/look%20builder/200402-194656_voamab.mp4#t=0.1" />
       </div>
 
-      <div className={`video-callout w-full max-w-[1182px] mx-auto `}>
-        <VideoBlock src="/assets/images/200330-073437_com.mp4#t=0.1" className="w-[1200px] max-w-full" />
+      <div className={`video-callout mx-auto w-full max-w-[1182px] `}>
+        <VideoBlock src="https://res.cloudinary.com/dl4btvfxp/video/upload/v1644701705/look%20builder/200330-073437_com_qs5bfd.mp4#t=0.1" className="w-[1200px] max-w-full" />
       </div>
 
-      <div className="w-full max-w-3xl mx-auto">
+      <div className="mx-auto w-full max-w-3xl">
         <Button big target="_blank" href="https://proto-moria.netlify.com/">
           View the Live Prototype
         </Button>
@@ -231,8 +231,8 @@ const LookBuilder = () => (
         </ol>
       </ContentCard>
 
-      <div className={`video-callout w-full max-w-[1182px] mx-auto  `}>
-        <ImageBlock className="opacity-100" src="/assets/images/200330-172519.jpg" />
+      <div className={`video-callout mx-auto w-full max-w-[1182px]  `}>
+        <ImageBlock className="opacity-100" src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/200330-172519_wfao1t.jpg" />
       </div>
 
       <ContentCard>
@@ -258,7 +258,7 @@ const LookBuilder = () => (
         </ul>
       </ContentCard>
 
-      <div className="w-full max-w-3xl mx-auto">
+      <div className="mx-auto w-full max-w-3xl">
         <Button big target="_blank" href="https://www.generationtux.com/app/customize?bundle_ids=112&sidecar=list&product_skus=330914WHT%2C911246PLM%2C430464BLW%2C610158WHT%2C030088SLV%2CB10903BWN%2CA10186BRA%2C881007BLB">
           View the Final Product
         </Button>
