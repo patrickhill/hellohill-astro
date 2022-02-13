@@ -39,15 +39,17 @@ const Home = () => (
                   }}
                 >
                   <div className="hover-3d-target will-change transition duration-[300ms] ease-out">
-                    <video
-                      className={`${roundedClassNames} aspect-4/3 w-full`}
-                      loop
-                      autoPlay
-                      playsInline
-                      muted
-                      src="https://res.cloudinary.com/dl4btvfxp/video/upload/v1644700337/home/200504-093605_dev8kc.mp4"
-                      alt="Look Builder UI"
-                    />
+                    <div className={`${roundedClassNames} overflow-hidden`}>
+                      <video
+                        className={`${roundedClassNames} lazy-load aspect-4/3 w-full`}
+                        loop
+                        autoPlay
+                        playsInline
+                        muted
+                        src="https://res.cloudinary.com/dl4btvfxp/video/upload/v1644700337/home/200504-093605_dev8kc.mp4"
+                        alt="Look Builder UI"
+                      />
+                    </div>
                   </div>
                 </div>
                 <div className="mt-32 flex justify-between space-x-8">
@@ -72,11 +74,13 @@ const Home = () => (
                   }}
                 >
                   <div className="hover-3d-target will-change transition duration-[300ms] ease-out">
-                    <img
-                      className={`${roundedClassNames} aspect-4/3 w-full`}
-                      src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644700336/home/zenti-hh-hero_anbsvf.jpg"
-                      alt="Zenti Timer Screenshot"
-                    />
+                    <div className={`${roundedClassNames} overflow-hidden`}>
+                      <img
+                        className={`${roundedClassNames} lazy-load aspect-4/3 w-full`}
+                        src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644700336/home/zenti-hh-hero_anbsvf.jpg"
+                        alt="Zenti Timer Screenshot"
+                      />
+                    </div>
                   </div>
                 </div>
                 <div className="mt-32 flex justify-between space-x-8">
