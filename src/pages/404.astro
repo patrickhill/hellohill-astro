@@ -1,0 +1,47 @@
+---
+// Component Imports
+import Button from "../components/Button";
+// You can import components from any supported Framework here!
+
+// Component Script:
+// You can write any JavaScript/TypeScript that you'd like here.
+// It will run during the build, but never in the browser.
+// All variables are available to use in the HTML template below.
+let title = "Patrick Hill Design";
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="google-site-verification"
+      content="z7RJtBYpxYYhvxLkTEfPK0u0MoOypFD61gVyoMBVrRQ"
+    />
+    <title>{title}</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href={Astro.resolve("../styles/global.css")} />
+  </head>
+  <body class="bg-gray-800">
+    <div class="container my-128 text-center space-y-32">
+      <div>
+        <h1
+          class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-thin leading-tight bg-gradient-brand text-clip max-w-screen-lg"
+        >
+          404
+        </h1>
+        <p class="text-white">This url doesn't exist.</p>
+      </div>
+
+      <Button big={false} className="!inline-block" href="/"
+        >Back to Home</Button
+      >
+    </div>
+
+    <script type="text/javascript" src={Astro.resolve("../scripts/scripts.js")}
+    ></script>
+  </body>
+</html>
