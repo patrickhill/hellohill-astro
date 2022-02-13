@@ -17,9 +17,7 @@ const layout = "caseStudyLayout.html";
 const date = "2020-03-28";
 
 const ImageBlock = ({ ...props }) => (
-  <div
-    className={`${roundedClassNames} ${props.className ? props.className : ""}`}
-  >
+  <div className={` ${props.className ? props.className : ""}`}>
     <img className={`lazy-load bg-white`} src={props.src} />
   </div>
 );
