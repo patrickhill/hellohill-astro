@@ -225,15 +225,15 @@ const LookBuilder = () => (
       <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
         <ImageBlock
           src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701685/look%20builder/suit-wireframe_kdqfcb.jpg"
-          className="row-start-1 row-end-3"
+          className="row-start-1 row-end-3 aspect-[383/511]"
         />
         <ImageBlock
           src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/3d-suit-clay_qj4vr7.jpg"
-          className="row-start-1 row-end-3"
+          className="row-start-1 row-end-3 aspect-[383/511]"
         />
         <VideoBlock
           src="https://res.cloudinary.com/dl4btvfxp/video/upload/v1644701695/look%20builder/suit-turntable_r2rbor.mp4#t=0.1"
-          className="row-start-1 row-end-3"
+          className="row-start-1 row-end-3 aspect-[383/511]"
         />
       </div>
 
@@ -398,7 +398,10 @@ const LookBuilder = () => (
       </div>
 
       <div className={`mx-auto w-full max-w-[1182px] `}>
-        <VideoBlock src="https://res.cloudinary.com/dl4btvfxp/video/upload/v1644701690/look%20builder/lookbuilder-hero_cos46b.mp4#t=0.1" />
+        <VideoBlock
+          className="aspect-4/3"
+          src="https://res.cloudinary.com/dl4btvfxp/video/upload/v1644701690/look%20builder/lookbuilder-hero_cos46b.mp4#t=0.1"
+        />
       </div>
 
       <ContentCard id="prototyping">
@@ -416,13 +419,16 @@ const LookBuilder = () => (
       </ContentCard>
 
       <div className={`mx-auto w-full max-w-[400px] `}>
-        <VideoBlock src="https://res.cloudinary.com/dl4btvfxp/video/upload/v1644701692/look%20builder/200402-194656_voamab.mp4#t=0.1" />
+        <VideoBlock
+          className="aspect-[400/690]"
+          src="https://res.cloudinary.com/dl4btvfxp/video/upload/v1644701692/look%20builder/200402-194656_voamab.mp4#t=0.1"
+        />
       </div>
 
       <div className={`mx-auto w-full max-w-[1182px] `}>
         <VideoBlock
           src="https://res.cloudinary.com/dl4btvfxp/video/upload/v1644701705/look%20builder/200330-073437_com_qs5bfd.mp4#t=0.1"
-          className="w-[1200px] max-w-full"
+          className="aspect-[1182/849] w-[1200px] max-w-full"
         />
       </div>
 
