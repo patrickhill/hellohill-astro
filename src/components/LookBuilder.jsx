@@ -22,7 +22,7 @@ const ImageBlock = ({ ...props }) => (
       props.className ? props.className : ""
     }`}
   >
-    <img className={`lazy-load bg-white`} src={props.src} />
+    <img className={`lazy-load bg-white`} loading="lazy" src={props.src} />
   </div>
 );
 const VideoBlock = ({ ...props }) => (
@@ -39,6 +39,7 @@ const VideoBlock = ({ ...props }) => (
         muted
         playsInline
         preload="metadata"
+        loading="lazy"
         src={props.src}
       ></video>
     </div>
