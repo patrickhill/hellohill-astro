@@ -130,3 +130,7 @@ textarea {
   -moz-appearance: none;
   appearance: none;
 }
+
+.webkit-corner-fix {
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+}

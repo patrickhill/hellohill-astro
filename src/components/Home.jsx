@@ -72,7 +72,7 @@ const Home = () => (
 
         <div className="grid-misc grid grid-cols-1 place-items-center gap-64 md:grid-cols-2">
           {LatestWork.map((item, key) => (
-            <div style={{ WebkitMaskImage: "-webkit-radial-gradient(white, black)" }} className={`overflow-hidden ${roundedClassNames}`} key={key}>
+            <div className={`webkit-corner-fix overflow-hidden ${roundedClassNames}`} key={key}>
               {item.heroType === "video" ? (
                 <video
                   autoPlay

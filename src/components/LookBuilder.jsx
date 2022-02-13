@@ -15,13 +15,13 @@ const layout = "caseStudyLayout.html";
 const date = "2020-03-28";
 
 const ImageBlock = ({ ...props }) => (
-  <div style={{ WebkitMaskImage: "-webkit-radial-gradient(white, black)" }} className={`${roundedClassNames} overflow-hidden ${props.className ? props.className : ""}`}>
+  <div className={`${roundedClassNames} webkit-corner-fix overflow-hidden ${props.className ? props.className : ""}`}>
     <img className={`lazy-load `} loading="lazy" src={props.src} />
   </div>
 );
 const VideoBlock = ({ ...props }) => (
   <div className={`${props.className ? props.className : ""}`}>
-    <div style={{ WebkitMaskImage: "-webkit-radial-gradient(white, black)" }} className={`${roundedClassNames} h-full overflow-hidden bg-white ${props.className ? props.className : ""}`}>
+    <div className={`${roundedClassNames} webkit-corner-fix h-full overflow-hidden bg-white ${props.className ? props.className : ""}`}>
       <video className={`lazy-load mx-auto`} autoPlay loop muted playsInline preload="metadata" loading="lazy" src={props.src}></video>
     </div>
   </div>
