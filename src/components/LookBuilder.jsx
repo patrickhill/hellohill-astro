@@ -18,7 +18,7 @@ const date = "2020-03-28";
 
 const ImageBlock = ({ ...props }) => (
   <div
-    className={`${roundedClassNames} webkit-corner-fix overflow-hidden ${
+    className={`${roundedClassNames} webkit-corner-fix ${
       props.className ? props.className : ""
     }`}
   >
@@ -28,7 +28,7 @@ const ImageBlock = ({ ...props }) => (
 const VideoBlock = ({ ...props }) => (
   <div className={`${props.className ? props.className : ""}`}>
     <div
-      className={`${roundedClassNames} webkit-corner-fix h-full overflow-hidden bg-white ${
+      className={`${roundedClassNames} webkit-corner-fix h-full bg-white ${
         props.className ? props.className : ""
       }`}
     >
