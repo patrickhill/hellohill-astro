@@ -1,4 +1,3 @@
-
 <script type="text/javascript">
   const scale = (num, in_min, in_max, out_min, out_max) => {
     return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min;
@@ -6,7 +5,7 @@
   let hoverEls = document.querySelectorAll(".hover-3d");
   hoverEls.forEach((hoverEl) => {
     let btnInterval;
-    var targetEl = hoverEl.querySelector('.hover-3d-target');
+    var targetEl = hoverEl.querySelector(".hover-3d-target");
     hoverEl.addEventListener("mousemove", (e) => {
       var rect = targetEl.getBoundingClientRect();
       x = e.clientX - rect.left;
@@ -30,19 +29,27 @@
     if (intersectionObserverSupported) {
       let options = {
         root: null,
-        rootMargin: "0px 0px -10%",
+        rootMargin: "0px 0px 10%",
         threshold: 0,
       };
       let isIntersecting = (entries, observer) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             let item = entry.target;
+            item.setAttribute("src", item.getAttribute("data-src"));
 
-            setTimeout(() => {
-              item.parentElement.classList.remove("loading");
+            if (item.nodeName === "VIDEO") {
+              item.oncanplay = function () {
+                item.parentElement.classList.remove("loading");
                 item.classList.remove("blur");
-            }, 300);
-                
+              };
+            } else {
+              item.addEventListener("load", function () {
+                item.parentElement.classList.remove("loading");
+                item.classList.remove("blur");
+              });
+            }
+
             observer.unobserve(item);
           }
         });
@@ -50,12 +57,15 @@
       let observer = new IntersectionObserver(isIntersecting, options);
       scrollItems.forEach((item) => {
         // console.log(item.nodeName);
+        item.setAttribute("data-src", item.getAttribute("src"));
+        item.setAttribute("src", undefined);
 
+        // if (item.nodeName !== "VIDEO") {
         item.classList.add("blur");
         item.parentElement.classList.add("loading");
-
+        // }
         observer.observe(item);
       });
     }
   });
-  </script>
+</script>

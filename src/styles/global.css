@@ -82,7 +82,7 @@
   @apply object-cover;
 }
 
-img.lazy-load {
+.lazy-load {
   transition: all 0.4s ease;
 }
 .loading {
