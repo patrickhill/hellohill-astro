@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "./Footer";
 import Header from "./Header";
 import BigHeading from "./BigHeading";
 import Button from "./Button";
@@ -264,8 +263,6 @@ const LookBuilder = () => (
         </Button>
       </div>
     </div>
-
-    <Footer className="mt-128 md:mt-256" />
   </>
 );
 

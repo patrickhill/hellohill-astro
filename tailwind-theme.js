@@ -149,6 +149,9 @@ const theme = {
     padding: "32px",
   },
   extend: {
+    aspectRatio: {
+      '4/3': '4 / 3',
+    },
     backgroundImage: (theme) => ({
       "gradient-brand": "linear-gradient(-8deg, #3BDFDF, #DEFFB5)",
     }),
