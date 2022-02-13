@@ -300,14 +300,14 @@ const LookBuilder = () => (
         <div className={`case-study-grid-images mx-auto w-full max-w-[1182px]`}>
           <ImageBlock
             src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/look-builder-sketch-1_o4tntx.jpg"
-            className="col-start-1 col-end-4 row-start-1 row-end-3"
+            className="col-start-1 col-end-4 row-start-1 row-end-3 aspect-[1182/414]"
           />
         </div>
 
         <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
           <ImageBlock
             src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/look-builder-sketch-2_rwaigd.jpg"
-            className="row-start-1 row-end-3"
+            className="row-start-1 row-end-3 aspect-[383/590]"
           />
           <ImageBlock
             src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/look-builder-sketch-3_z75pi8.jpg"
@@ -325,27 +325,8 @@ const LookBuilder = () => (
 
         <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
           <ImageBlock
-            src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/look-builder-sketch-6_n5uiyf.jpg"
-            className="col-start-1"
-          />
-          <ImageBlock
-            src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/look-builder-sketch-7_okc7rh.jpg"
-            className="col-start-1"
-          />
-          <ImageBlock
-            src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/look-builder-sketch-8_yhf3b7.jpg"
-            className="col-start-3 col-end-4 row-start-1 row-end-3"
-          />
-          <ImageBlock
-            src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/look-builder-sketch-9_jez1km.jpg"
-            className="col-start-2 col-end-3 row-start-1 row-end-3"
-          />
-        </div>
-
-        <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
-          <ImageBlock
             src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701685/look%20builder/ui-iterations-1_dv6eam.jpg"
-            className="row-span-2"
+            className="row-span-2 aspect-[383/287]"
           />
           <ImageBlock
             src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701685/look%20builder/ui-iterations-2_rpfdfv.jpg"
@@ -359,7 +340,7 @@ const LookBuilder = () => (
         <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
           <ImageBlock
             src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701686/look%20builder/ui-iterations-4_sn4zty.jpg"
-            className="row-span-2"
+            className="row-span-2 aspect-[383/287]"
           />
           <ImageBlock
             src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701686/look%20builder/ui-iterations-5_jqbwie.jpg"
@@ -367,20 +348,6 @@ const LookBuilder = () => (
           />
           <ImageBlock
             src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701686/look%20builder/ui-iterations-6_k2dd9v.jpg"
-            className="row-span-2"
-          />
-        </div>
-        <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
-          <ImageBlock
-            src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701686/look%20builder/ui-iterations-7_z8lsmf.jpg"
-            className="row-span-2"
-          />
-          <ImageBlock
-            src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701686/look%20builder/ui-iterations-8_bgmrmu.jpg"
-            className="row-span-2"
-          />
-          <ImageBlock
-            src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701686/look%20builder/ui-iterations-9_zueviq.jpg"
             className="row-span-2"
           />
         </div>
