@@ -39,7 +39,7 @@ const Home = () => (
                   }}
                 >
                   <div className="hover-3d-target will-change transition duration-[300ms] ease-out">
-                    <div className={`${roundedClassNames} overflow-hidden`}>
+                    <div className={`${roundedClassNames} webkit-corner-fix`}>
                       <video
                         className={`${roundedClassNames} lazy-load aspect-4/3 w-full`}
                         loop
@@ -74,7 +74,7 @@ const Home = () => (
                   }}
                 >
                   <div className="hover-3d-target will-change transition duration-[300ms] ease-out">
-                    <div className={`${roundedClassNames} overflow-hidden`}>
+                    <div className={`${roundedClassNames} webkit-corner-fix`}>
                       <img
                         className={`${roundedClassNames} lazy-load aspect-4/3 w-full`}
                         src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644700336/home/zenti-hh-hero_anbsvf.jpg"
@@ -112,7 +112,7 @@ const Home = () => (
         <div className="grid-misc grid grid-cols-1 place-items-center gap-64 md:grid-cols-2">
           {LatestWork.map((item, key) => (
             <div
-              className={`webkit-corner-fix aspect-4/3 w-full overflow-hidden ${roundedClassNames}`}
+              className={`webkit-corner-fix aspect-4/3 w-full ${roundedClassNames}`}
               key={key}
             >
               {item.heroType === "video" ? (
