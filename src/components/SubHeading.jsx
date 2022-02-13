@@ -6,14 +6,14 @@ const SubHeading = ({ as, className, ...props }) => {
   return (
     <CustomTag
       className={`
-        bg-gradient-brand
-        text-clip
-        uppercase
         text-normal
-        md:text-lg
+        text-clip
+        bg-gradient-brand
         font-black
+        uppercase
         tracking-widest
-        ${className}
+        md:text-lg
+        ${className ? className : ""}
       `}
     >
       {props.children}
