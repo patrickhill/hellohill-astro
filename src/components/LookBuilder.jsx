@@ -18,11 +18,9 @@ const date = "2020-03-28";
 
 const ImageBlock = ({ ...props }) => (
   <div
-    className={`${roundedClassNames} webkit-corner-fix overflow-hidden ${
-      props.className ? props.className : ""
-    }`}
+    className={`${roundedClassNames} ${props.className ? props.className : ""}`}
   >
-    <img className={`lazy-load bg-white`} loading="lazy" src={props.src} />
+    <img className={`lazy-load bg-white`} src={props.src} />
   </div>
 );
 const VideoBlock = ({ ...props }) => (
