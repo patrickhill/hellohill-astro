@@ -22,7 +22,7 @@ const ImageBlock = ({ ...props }) => (
       props.className ? props.className : ""
     }`}
   >
-    <img className={`lazy-load `} loading="lazy" src={props.src} />
+    <img className={`lazy-load bg-white`} loading="lazy" src={props.src} />
   </div>
 );
 const VideoBlock = ({ ...props }) => (
@@ -33,7 +33,7 @@ const VideoBlock = ({ ...props }) => (
       }`}
     >
       <video
-        className={`lazy-load mx-auto`}
+        className={`lazy-load mx-auto bg-white`}
         autoPlay
         loop
         muted
@@ -143,33 +143,36 @@ const LookBuilder = () => (
         <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
           <ImageBlock
             src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/layer-stack-illustration_pshrve.jpg"
-            className="row-start-1 row-end-3"
+            className="row-start-1 row-end-3 aspect-[383/511]"
           />
           <ImageBlock
             src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/photo-setup-illustration_rcjblx.jpg"
-            className="row-start-1 row-end-3"
+            className="row-start-1 row-end-3 aspect-[383/511]"
           />
           <ImageBlock
             src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/IMG_2004_jwjlmf.jpg"
-            className="row-start-1 row-end-3"
+            className="row-start-1 row-end-3 aspect-[383/511]"
           />
         </div>
 
         <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
           <ImageBlock
             src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/IMG_1818_ol572f.jpg"
-            className="col-start-1"
+            className="col-start-1 aspect-[383/248]"
           />
 
-          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701685/look%20builder/ties_yrixuy.jpg" />
+          <ImageBlock
+            src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701685/look%20builder/ties_yrixuy.jpg"
+            className="aspect-[383/248]"
+          />
 
           <ImageBlock
             src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/IMG_1746_rlcyj0.jpg"
-            className="col-start-3 col-end-4 row-start-1 row-end-3"
+            className="col-start-3 col-end-4 row-start-1 row-end-3 aspect-[383/511]"
           />
           <ImageBlock
             src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/IMG_1838_aczw3w.jpg"
-            className="col-start-2 col-end-3 row-start-1 row-end-3"
+            className="col-start-2 col-end-3 row-start-1 row-end-3 aspect-[383/511]"
           />
         </div>
       </div>
@@ -249,11 +252,11 @@ const LookBuilder = () => (
       <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
         <ImageBlock
           src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/200329-144241_ms7mex.jpg"
-          className="col-start-1 col-end-3 row-start-1 row-end-3"
+          className="col-start-1 col-end-3 row-start-1 row-end-3 aspect-[782/507]"
         />
         <ImageBlock
           src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/200329-144245_qzlxvm.jpg"
-          className="row-start-1 row-end-3"
+          className="row-start-1 row-end-3 aspect-[383/507]"
         />
       </div>
 
