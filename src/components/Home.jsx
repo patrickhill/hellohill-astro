@@ -152,6 +152,8 @@ const Home = () => (
           </Button>
         </div>
       </div>
+
+      <Footer />
     </div>
   </>
 );
