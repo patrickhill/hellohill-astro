@@ -160,10 +160,9 @@ const LookBuilder = () => (
             src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/IMG_1818_ol572f.jpg"
             className="col-start-1"
           />
-          <ImageBlock
-            src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/IMG_1820_ykizln.jpg"
-            className="col-start-1"
-          />
+
+          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701685/look%20builder/ties_yrixuy.jpg" />
+
           <ImageBlock
             src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/IMG_1746_rlcyj0.jpg"
             className="col-start-3 col-end-4 row-start-1 row-end-3"
@@ -172,19 +171,6 @@ const LookBuilder = () => (
             src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/IMG_1838_aczw3w.jpg"
             className="col-start-2 col-end-3 row-start-1 row-end-3"
           />
-        </div>
-
-        <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
-          <ImageBlock
-            src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/photoshop-retouch_d5rkm1.gif"
-            className="row-start-1 row-end-3"
-          />
-          <ImageBlock
-            src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701685/look%20builder/suit-photo-back_cenjtt.jpg"
-            className="row-start-1 row-end-3"
-          />
-          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701685/look%20builder/tie-stack_jpmbsh.jpg" />
-          <ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701685/look%20builder/ties_yrixuy.jpg" />
         </div>
       </div>
 
