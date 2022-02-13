@@ -7,6 +7,7 @@ const theme = {
     "2xl": "1536px",
   },
   colors: {
+    current: 'currentColor',
     mint: "#9cffd8",
     aqua: "#3BDFDF",
     tennis: "#DEFFB5",
