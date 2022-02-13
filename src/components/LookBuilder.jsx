@@ -415,11 +415,11 @@ const LookBuilder = () => (
         </p>
       </ContentCard>
 
-      <div className={`video-callout mx-auto w-full max-w-[400px] `}>
+      <div className={`mx-auto w-full max-w-[400px] `}>
         <VideoBlock src="https://res.cloudinary.com/dl4btvfxp/video/upload/v1644701692/look%20builder/200402-194656_voamab.mp4#t=0.1" />
       </div>
 
-      <div className={`video-callout mx-auto w-full max-w-[1182px] `}>
+      <div className={`mx-auto w-full max-w-[1182px] `}>
         <VideoBlock
           src="https://res.cloudinary.com/dl4btvfxp/video/upload/v1644701705/look%20builder/200330-073437_com_qs5bfd.mp4#t=0.1"
           className="w-[1200px] max-w-full"
@@ -457,9 +457,9 @@ const LookBuilder = () => (
         </ol>
       </ContentCard>
 
-      <div className={`video-callout mx-auto w-full max-w-[1182px]  `}>
+      <div className={`mx-auto w-full max-w-[1182px]  `}>
         <ImageBlock
-          className="opacity-100"
+          className="aspect-[1182/779]"
           src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701683/look%20builder/200330-172519_wfao1t.jpg"
         />
       </div>
