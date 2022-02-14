@@ -22,7 +22,7 @@ const ImageBlock = ({ ...props }) => (
       props.className ? props.className : ""
     }`}
   >
-    <img className={`lazy-load bg-white`} loading="lazy" data-src={props.src} />
+    <img className={`lazy-load`} loading="lazy" data-src={props.src} />
   </div>
 );
 const VideoBlock = ({ ...props }) => (
@@ -33,7 +33,7 @@ const VideoBlock = ({ ...props }) => (
       }`}
     >
       <video
-        className={`lazy-load mx-auto bg-white`}
+        className={`lazy-load mx-auto`}
         autoPlay
         loop
         muted

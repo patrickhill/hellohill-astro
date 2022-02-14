@@ -84,6 +84,7 @@
 
 .lazy-load {
   transition: all 0.5s ease;
+  @apply h-full w-full bg-white object-cover;
 }
 .loading {
   position: relative;
