@@ -27,8 +27,8 @@ const Home = () => (
 
             <LineVertical className="flex-grow" />
           </div>
-          <div className="space-y-64">
-            <div className="max-w-2xl rounded-[1.1rem] bg-gradient-brand p-2 sm:rounded-[1.9rem]">
+          <div className="w-full max-w-2xl space-y-64">
+            <div className="rounded-[1.1rem] bg-gradient-brand p-2 sm:rounded-[1.9rem]">
               <a
                 href="/casestudies/lookbuilder"
                 className={`hover-3d block !overflow-visible rounded-[1.05rem] bg-gray-800 p-16 transition duration-300   hover:bg-gray-700 sm:rounded-[1.85rem] sm:p-24`}
@@ -46,7 +46,7 @@ const Home = () => (
                         autoPlay
                         playsInline
                         muted
-                        src="https://res.cloudinary.com/dl4btvfxp/video/upload/v1644700337/home/200504-093605_dev8kc.mp4"
+                        data-src="https://res.cloudinary.com/dl4btvfxp/video/upload/v1644700337/home/200504-093605_dev8kc.mp4"
                         alt="Look Builder UI"
                       />
                     </div>
@@ -64,7 +64,7 @@ const Home = () => (
               </a>
             </div>
 
-            <div className="max-w-2xl rounded-[1.1rem] bg-gray-700 p-2 sm:rounded-[1.9rem]">
+            <div className="rounded-[1.1rem] bg-gray-700 p-2 sm:rounded-[1.9rem]">
               <div
                 className={`block !overflow-visible rounded-[1.05rem] bg-gray-800 p-16 hover:cursor-auto sm:rounded-[1.85rem] sm:p-24`}
               >
@@ -77,7 +77,7 @@ const Home = () => (
                     <div className={`${roundedClassNames} webkit-corner-fix`}>
                       <img
                         className={`${roundedClassNames} lazy-load aspect-4/3 w-full`}
-                        src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644700336/home/zenti-hh-hero_anbsvf.jpg"
+                        data-src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644700336/home/zenti-hh-hero_anbsvf.jpg"
                         alt="Zenti Timer Screenshot"
                       />
                     </div>
@@ -121,7 +121,7 @@ const Home = () => (
                   loop
                   playsInline
                   muted
-                  src={`${item.hero}#t=0.1`}
+                  data-src={`${item.hero}#t=0.1`}
                   alt={item.title}
                   className={`lazy-load`}
                   preload="metadata"
@@ -130,7 +130,7 @@ const Home = () => (
               ) : (
                 <img
                   loading="lazy"
-                  src={item.hero}
+                  data-src={item.hero}
                   alt={item.title}
                   className={`lazy-load`}
                 />

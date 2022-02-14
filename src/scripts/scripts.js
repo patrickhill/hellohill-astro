@@ -36,17 +36,16 @@ document.addEventListener("DOMContentLoaded", () => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           let item = entry.target;
+
           item.setAttribute("src", item.getAttribute("data-src"));
 
           if (item.nodeName === "VIDEO") {
             item.oncanplay = function () {
               item.parentElement.classList.remove("loading");
-              item.classList.remove("blur");
             };
           } else {
             item.addEventListener("load", function () {
               item.parentElement.classList.remove("loading");
-              item.classList.remove("blur");
             });
           }
 
@@ -56,13 +55,8 @@ document.addEventListener("DOMContentLoaded", () => {
     };
     let observer = new IntersectionObserver(isIntersecting, options);
     scrollItems.forEach((item) => {
-
-      item.setAttribute("data-src", item.getAttribute("src"));
-      item.removeAttribute("src");
-
-      item.classList.add("blur");
       item.parentElement.classList.add("loading");
-
+      item.parentElement.classList.add("bg-white");
       observer.observe(item);
     });
   }
