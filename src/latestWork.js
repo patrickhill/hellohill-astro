@@ -8,7 +8,7 @@ const LatestWork = [
   // },
   {
     title: "Stakburn App Icon",
-    hero: "https://res.cloudinary.com/dl4btvfxp/image/upload/v1644697706/home/image_processing20211209-1951-1x7vftd-1_ka5yvl.png",
+    hero: "https://res.cloudinary.com/dl4btvfxp/image/upload/v1644697706/home/image_processing20211209-1951-1x7vftd-1_ka5yvl.jpg",
     heroType: "image",
     url: "https://dribbble.com/shots/17033145-App-Icon",
     client: "Stakburn",
