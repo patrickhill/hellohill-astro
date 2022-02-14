@@ -55,8 +55,8 @@ document.addEventListener("DOMContentLoaded", () => {
     };
     let observer = new IntersectionObserver(isIntersecting, options);
     scrollItems.forEach((item) => {
-      item.parentElement.classList.add("loading");
       item.parentElement.classList.add("bg-white");
+      item.parentElement.classList.add("loading");
       observer.observe(item);
     });
   }
