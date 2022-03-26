@@ -42,7 +42,8 @@ const Home = () => (
                     <div className={`${roundedClassNames} webkit-corner-fix`}>
                       <img
                         className={`${roundedClassNames} lazy-load aspect-4/3 w-full`}
-                        data-src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644700336/home/zenti-hh-hero_anbsvf.jpg"
+                        // data-src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644700336/home/zenti-hh-hero_anbsvf.jpg"
+                        data-src="https://res.cloudinary.com/dl4btvfxp/image/upload/w_620,dpr_2/v1648306469/zenti/Zenti_20220326-105257_cq0fko.jpg"
                         alt="Zenti Timer Screenshot"
                       />
                     </div>
@@ -88,7 +89,7 @@ const Home = () => (
                   <div>
                     <SubHeading as="h2">The Warehouse</SubHeading>
                     <p className="text-base font-light text-white">
-                      Building a distribution center from scratch.
+                      Designing a distribution center from scratch.
                     </p>
                   </div>
                   <div
