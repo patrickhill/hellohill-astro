@@ -28,6 +28,76 @@ const Home = () => (
             <LineVertical className="flex-grow" />
           </div>
           <div className="w-full max-w-2xl space-y-64">
+            <div className="rounded-[1.1rem] bg-gray-700 p-2 sm:rounded-[1.9rem]">
+              <div
+                className={`block !overflow-visible rounded-[1.05rem] bg-gray-800 p-16 hover:cursor-auto sm:rounded-[1.85rem] sm:p-24`}
+              >
+                <div
+                  style={{
+                    perspective: 2000,
+                  }}
+                >
+                  <div className="hover-3d-target will-change transition duration-[300ms] ease-out">
+                    <div className={`${roundedClassNames} webkit-corner-fix`}>
+                      <img
+                        className={`${roundedClassNames} lazy-load aspect-4/3 w-full`}
+                        data-src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644700336/home/zenti-hh-hero_anbsvf.jpg"
+                        alt="Zenti Timer Screenshot"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-32 flex justify-between space-x-8">
+                  <div>
+                    <SubHeading as="h2">Zenti</SubHeading>
+                    <p className="text-base font-light text-white">
+                      A simple meditation timer
+                    </p>
+                  </div>
+                  <div
+                    className={`${roundedClassNames} flex items-center justify-center bg-gray-700 px-16 font-extralight text-gray-200 sm:px-32 `}
+                  >
+                    Coming Soon
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="rounded-[1.1rem] bg-gray-700 p-2 sm:rounded-[1.9rem]">
+              <div
+                className={`block !overflow-visible rounded-[1.05rem] bg-gray-800 p-16 hover:cursor-auto sm:rounded-[1.85rem] sm:p-24`}
+              >
+                <div
+                  style={{
+                    perspective: 2000,
+                  }}
+                >
+                  <div className="hover-3d-target will-change transition duration-[300ms] ease-out">
+                    <div className={`${roundedClassNames} webkit-corner-fix`}>
+                      <img
+                        className={`${roundedClassNames} lazy-load aspect-4/3 w-full`}
+                        data-src="https://res.cloudinary.com/dl4btvfxp/image/upload/h_1,w_0.95,c_crop,g_west/w_0.6,h_0.8,c_crop,g_center/w_620,ar_4:3,c_fill,dpr_2/v1648302304/warehouse/4T9A8728_v3eeut.jpg"
+                        alt="Gentux shipping box in warehouse"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-32 flex justify-between space-x-8">
+                  <div>
+                    <SubHeading as="h2">The Warehouse</SubHeading>
+                    <p className="text-base font-light text-white">
+                      Building a distribution center from scratch.
+                    </p>
+                  </div>
+                  <div
+                    className={`${roundedClassNames} flex items-center justify-center bg-gray-700 px-16 font-extralight text-gray-200 sm:px-32 `}
+                  >
+                    Coming Soon
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="rounded-[1.1rem] bg-gradient-brand p-2 sm:rounded-[1.9rem]">
               <a
                 href="/casestudies/lookbuilder"
@@ -62,41 +132,6 @@ const Home = () => (
                   <Button>Read</Button>
                 </div>
               </a>
-            </div>
-
-            <div className="rounded-[1.1rem] bg-gray-700 p-2 sm:rounded-[1.9rem]">
-              <div
-                className={`block !overflow-visible rounded-[1.05rem] bg-gray-800 p-16 hover:cursor-auto sm:rounded-[1.85rem] sm:p-24`}
-              >
-                <div
-                  style={{
-                    perspective: 2000,
-                  }}
-                >
-                  <div className="hover-3d-target will-change transition duration-[300ms] ease-out">
-                    <div className={`${roundedClassNames} webkit-corner-fix`}>
-                      <img
-                        className={`${roundedClassNames} lazy-load aspect-4/3 w-full`}
-                        data-src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644700336/home/zenti-hh-hero_anbsvf.jpg"
-                        alt="Zenti Timer Screenshot"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="mt-32 flex justify-between space-x-8">
-                  <div>
-                    <SubHeading as="h2">Zenti</SubHeading>
-                    <p className="text-base font-light text-white">
-                      A simple meditation timer
-                    </p>
-                  </div>
-                  <div
-                    className={`${roundedClassNames} flex items-center justify-center bg-gray-700 px-16 font-extralight text-gray-200 sm:px-32 `}
-                  >
-                    Coming Soon
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
