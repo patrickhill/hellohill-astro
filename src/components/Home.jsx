@@ -56,11 +56,7 @@ const Home = () => (
                       A simple meditation timer
                     </p>
                   </div>
-                  <div
-                    className={`${roundedClassNames} flex items-center justify-center bg-gray-700 px-16 font-extralight text-gray-200 sm:px-32 `}
-                  >
-                    Coming Soon
-                  </div>
+                  <Button>Read</Button>
                 </div>
               </a>
             </div>
@@ -92,11 +88,7 @@ const Home = () => (
                       Designing a distribution center from scratch.
                     </p>
                   </div>
-                  <div
-                    className={`${roundedClassNames} flex items-center justify-center bg-gray-700 px-16 font-extralight text-gray-200 sm:px-32 `}
-                  >
-                    Coming Soon
-                  </div>
+                  <Button>Read</Button>
                 </div>
               </a>
             </div>
