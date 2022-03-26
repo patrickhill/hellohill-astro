@@ -28,9 +28,10 @@ const Home = () => (
             <LineVertical className="flex-grow" />
           </div>
           <div className="w-full max-w-2xl space-y-64">
-            <div className="rounded-[1.1rem] bg-gray-700 p-2 sm:rounded-[1.9rem]">
-              <div
-                className={`block !overflow-visible rounded-[1.05rem] bg-gray-800 p-16 hover:cursor-auto sm:rounded-[1.85rem] sm:p-24`}
+            <div className="rounded-[1.1rem] bg-gradient-brand p-2 sm:rounded-[1.9rem]">
+              <a
+                href="/casestudies/warehouse"
+                className={`hover-3d block !overflow-visible rounded-[1.05rem] bg-gray-800 p-16 transition duration-300   hover:bg-gray-700 sm:rounded-[1.85rem] sm:p-24`}
               >
                 <div
                   style={{
@@ -60,12 +61,13 @@ const Home = () => (
                     Coming Soon
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
 
-            <div className="rounded-[1.1rem] bg-gray-700 p-2 sm:rounded-[1.9rem]">
-              <div
-                className={`block !overflow-visible rounded-[1.05rem] bg-gray-800 p-16 hover:cursor-auto sm:rounded-[1.85rem] sm:p-24`}
+            <div className="rounded-[1.1rem] bg-gradient-brand p-2 sm:rounded-[1.9rem]">
+              <a
+                href="/casestudies/warehouse"
+                className={`hover-3d block !overflow-visible rounded-[1.05rem] bg-gray-800 p-16 transition duration-300   hover:bg-gray-700 sm:rounded-[1.85rem] sm:p-24`}
               >
                 <div
                   style={{
@@ -95,7 +97,7 @@ const Home = () => (
                     Coming Soon
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div className="rounded-[1.1rem] bg-gradient-brand p-2 sm:rounded-[1.9rem]">

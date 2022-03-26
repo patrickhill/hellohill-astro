@@ -1,0 +1,37 @@
+---
+// Component Imports
+import Warehouse from "../../components/Warehouse";
+// You can import components from any supported Framework here!
+
+// Component Script:
+// You can write any JavaScript/TypeScript that you'd like here.
+// It will run during the build, but never in the browser.
+// All variables are available to use in the HTML template below.
+let title = "Warehouse Product Design - Design Case Study by Patrick Hill";
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="google-site-verification"
+      content="z7RJtBYpxYYhvxLkTEfPK0u0MoOypFD61gVyoMBVrRQ"
+    />
+    <title>{title}</title>
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <link rel="stylesheet" href={Astro.resolve("../../styles/global.css")} />
+  </head>
+  <body class="bg-gray-800">
+    <Warehouse />
+
+    <script
+      type="text/javascript"
+      src={Astro.resolve("../../scripts/scripts.js")}></script>
+  </body>
+</html>
