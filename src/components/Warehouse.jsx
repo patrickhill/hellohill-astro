@@ -91,28 +91,49 @@ const LookBuilder = () => (
 
         <h3>The Challenge</h3>
         <p>
-          Create a way for customers to visualize thousands of suit, tux, tie
-          and accessory combinations for Generation Tux, an online tuxedo rental
-          company. Gentux has no brick and mortar stores so this UI will be the
-          primary way customers interact with the product. The company also runs
-          multiple brands so the work needs to be reusable.
+          Design distribution center workflows, processes, and UI for Generation
+          Tux, an online tuxedo rental company.
         </p>
+
+        <h3>Background</h3>
+        <p>
+          The previous system was a cobbled together mess built on top of a CRM
+          tool. A CRM (customer relationship management) isn't meant to handle
+          order processing and shipping so it barely functioned. As a result,
+          tons of side processes and workarounds had developed over the years to
+          keep orders shipping. In addition, the software was incredibly
+          expensive.
+        </p>
+        <p>
+          A small team of designers and engineers were given the task of
+          replacing the entire system in time by the time the CRM software
+          contract ended.
+        </p>
+
         <h3>Details</h3>
         <div
           className="flex flex-col gap-8 rounded-b-lg bg-gray-100 p-32 sm:grid sm:gap-16 sm:rounded-b-2xl"
           style={{ gridTemplateColumns: "auto auto" }}
         >
           <h4>Resources:</h4>
-          <p>
-            3-6 person ui team of designers and engineers. Limited budget with
-            no outside resources for assets like photographers.
-          </p>
+          <div className="space-y-8">
+            <p>The core design team consisted of:</p>
+            <ul className="!ml-24">
+              <li>1 UI designer (me)</li>
+              <li>1 full stack engineer</li>
+              <li>1 front end engineer</li>
+              <li>1 product owner</li>
+            </ul>
+            <p>
+              The team added 4 more engineers as we moved into implementation.
+            </p>
+          </div>
 
           <h4>Timeline:</h4>
-          <p>3-4 months</p>
+          <p>3 months</p>
 
           <h4>My Role:</h4>
-          <p>UI Design, 3D Design, UI Dev, Design Leadership</p>
+          <p>UI Design, UI Dev, Design Sprint Ideation</p>
         </div>
       </ContentCard>
 
