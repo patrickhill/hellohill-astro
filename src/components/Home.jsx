@@ -43,7 +43,7 @@ const Home = () => (
                       <img
                         className={`${roundedClassNames} lazy-load aspect-4/3 w-full`}
                         // data-src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1644700336/home/zenti-hh-hero_anbsvf.jpg"
-                        data-src="https://res.cloudinary.com/dl4btvfxp/image/upload/w_620,dpr_2/v1648306469/zenti/Zenti_20220326-105257_cq0fko.jpg"
+                        data-src="https://res.cloudinary.com/dl4btvfxp/image/upload/w_620,dpr_2/v1648307444/zenti/zenti_20220326-110728_gmtkj9.jpg"
                         alt="Zenti Timer Screenshot"
                       />
                     </div>
