@@ -16,7 +16,7 @@ const Home = () => (
       <div className="container">
         <BigHeading as="h1" className="mb-64 max-w-screen-lg">
           Hello, I’m Patrick Hill, a product designer delivering user friendly
-          solutions to challenging software problems.
+          solutions to challenging software&nbsp;problems.
         </BigHeading>
 
         <div className="flex flex-col items-stretch justify-between md:flex-row ">
@@ -135,8 +135,7 @@ const Home = () => (
       <div className="container">
         <SubHeading as="h2">Miscellaneous Work</SubHeading>
         <BigHeading as="p" className="mb-64 max-w-screen-lg">
-          An assortment of past projects and personal work to give you a feel
-          for what&nbsp;I&nbsp;do.
+          Snapshots of past projects to give you a feel for what&nbsp;I&nbsp;do.
         </BigHeading>
 
         <div className="grid-misc grid grid-cols-1 place-items-center gap-64 md:grid-cols-2">

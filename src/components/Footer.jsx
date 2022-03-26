@@ -14,7 +14,8 @@ const Footer = ({ className = "" }) => (
             <h2>Hire Me</h2>
           </SubHeading>
           <BigHeading as="p" className="max-w-screen-lg">
-            UI design, motion, front-end development. If you need help, say&nbsp;hello!
+            UI, motion, 3d, front-end development. If you need help,
+            say&nbsp;hello!
           </BigHeading>
         </div>
         <div className="flex items-stretch justify-between">
@@ -27,21 +28,39 @@ const Footer = ({ className = "" }) => (
                   <label className="block" htmlFor="form-name">
                     Name:
                   </label>
-                  <input className="w-full rounded-lg border border-gray-300 p-16 font-sans text-base font-extralight placeholder-gray-500 outline-none focus:border-aqua focus:bg-gray-100" id="form-name" type="text" placeholder="Name" name="name" />
+                  <input
+                    className="w-full rounded-lg border border-gray-300 p-16 font-sans text-base font-extralight placeholder-gray-500 outline-none focus:border-aqua focus:bg-gray-100"
+                    id="form-name"
+                    type="text"
+                    placeholder="Name"
+                    name="name"
+                  />
                 </div>
 
                 <div className="space-y-8">
                   <label className="block" htmlFor="form-email">
                     Email:
                   </label>
-                  <input className="w-full rounded-lg border border-gray-300 p-16 font-sans text-base font-extralight placeholder-gray-500 outline-none focus:border-aqua focus:bg-gray-100" id="form-email" type="email" placeholder="Email" name="email" />
+                  <input
+                    className="w-full rounded-lg border border-gray-300 p-16 font-sans text-base font-extralight placeholder-gray-500 outline-none focus:border-aqua focus:bg-gray-100"
+                    id="form-email"
+                    type="email"
+                    placeholder="Email"
+                    name="email"
+                  />
                 </div>
 
                 <div className="space-y-8">
                   <label className="block" htmlFor="form-note">
                     Note:
                   </label>
-                  <textarea className="w-full rounded-lg border border-gray-300 p-16 font-sans text-base font-extralight placeholder-gray-500 outline-none focus:border-aqua focus:bg-gray-100" id="form-note" type="text" name="note" placeholder="Hello there..." />
+                  <textarea
+                    className="w-full rounded-lg border border-gray-300 p-16 font-sans text-base font-extralight placeholder-gray-500 outline-none focus:border-aqua focus:bg-gray-100"
+                    id="form-note"
+                    type="text"
+                    name="note"
+                    placeholder="Hello there..."
+                  />
                 </div>
 
                 <Button type="submit" className="w-full">
@@ -55,22 +74,34 @@ const Footer = ({ className = "" }) => (
       <div className="text-white">
         <ul className="flex flex-col items-center justify-between px-64 pb-40 text-base font-light tracking-wide sm:flex-row">
           <li>
-            <a className="hover:underline" href="https://dribbble.com/patrickhill">
+            <a
+              className="hover:underline"
+              href="https://dribbble.com/patrickhill"
+            >
               Dribbble
             </a>
           </li>
           <li>
-            <a className="hover:underline" href="https://www.instagram.com/hellohellohill/">
+            <a
+              className="hover:underline"
+              href="https://www.instagram.com/hellohellohill/"
+            >
               Instagram
             </a>
           </li>
           <li>
-            <a className="hover:underline" href="https://github.com/patrickhill">
+            <a
+              className="hover:underline"
+              href="https://github.com/patrickhill"
+            >
               GitHub
             </a>
           </li>
           <li>
-            <a className="hover:underline" href="http://twitter.com/PatrickHill">
+            <a
+              className="hover:underline"
+              href="http://twitter.com/PatrickHill"
+            >
               Twitter
             </a>
           </li>
