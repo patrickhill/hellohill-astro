@@ -18,7 +18,7 @@ const date = "2022-03-26";
 
 const ImageBlock = ({ ...props }) => (
   <div
-    className={`${roundedClassNames} webkit-corner-fix ${
+    className={`${roundedClassNames} webkit-corner-fix object-fill ${
       props.className ? props.className : ""
     }`}
   >
@@ -97,16 +97,8 @@ const LookBuilder = () => (
 
         <h3>Background</h3>
         <p>
-          The previous system was a cobbled together mess built on top of a CRM
-          tool. A CRM (customer relationship management) isn't meant to handle
-          order processing and shipping so it barely functioned. As a result,
-          tons of side processes and workarounds had developed over the years to
-          keep orders shipping. In addition, the software was incredibly
-          expensive.
-        </p>
-        <p>
           A small team of designers and engineers were given the task of
-          replacing the entire system in time by the time the CRM software
+          replacing the entire system in time by the time the current software
           contract ended.
         </p>
 
@@ -115,6 +107,20 @@ const LookBuilder = () => (
           className="flex flex-col gap-8 rounded-b-lg bg-gray-100 p-32 sm:grid sm:gap-16 sm:rounded-b-2xl"
           style={{ gridTemplateColumns: "auto auto" }}
         >
+          <h4>Requirements:</h4>
+          <div className="space-y-8">
+            <ul className="!ml-24">
+              <li>Must support multiple brands</li>
+              <li>Must be bi-lingual</li>
+              <li>Should rely as little as possible on third party software</li>
+              <li>
+                Should create visibility around reporting, order flows, and
+                auditing
+              </li>
+              <li>Should increase order capacity</li>
+            </ul>
+          </div>
+
           <h4>Resources:</h4>
           <div className="space-y-8">
             <p>The core design team consisted of:</p>
@@ -137,26 +143,52 @@ const LookBuilder = () => (
         </div>
       </ContentCard>
 
+      <div>
+        <div className="mx-auto w-full max-w-[1182px]">
+          <ImageBlock
+            src="https://res.cloudinary.com/dl4btvfxp/image/upload/w_0.8,c_crop,g_east/w_1182,ar_16:9,c_fill,dpr_2/v1648317667/warehouse/4T9A8597_krirpd.jpg"
+            alt="gentux warehouse clothing rack"
+            className=" aspect-[16/9]"
+          />
+        </div>
+      </div>
+
       <ContentCard id="exploration">
         <h2>Exploration</h2>
         <hr className="border-gray-300" />
 
         <h3>Problems to Solve</h3>
         <p>
-          The team knew from the get go that the hardest part would be the image
-          creation process. It seemed like an insurmountable task. Gentux has 12
-          suits, 8 tuxes, 438 ties, 53 vests, 32 cummerbunds, 12 shirts, and
-          250+ other accessories. How do you get a photo of every conceivable
-          combination for a customer to see?
+          The previous system was a cobbled together mess built on top of a CRM
+          tool. A CRM (customer relationship management) isn't meant to handle
+          order processing and shipping so it barely functioned. As a result,
+          tons of side processes and workarounds had developed over the years to
+          keep orders shipping. In addition, the software was incredibly
+          expensive.
         </p>
+      </ContentCard>
+
+      <div>
+        <div className="case-study-grid-images mx-auto w-full max-w-[1182px]">
+          <ImageBlock
+            src="https://res.cloudinary.com/dl4btvfxp/image/upload/w_0.5,h_0.85,g_south_east,c_crop/h_0.7,c_crop/w_383,dpr_2/v1648319292/warehouse/_BS27676_oe8mg1.jpg"
+            className="row-span-2"
+          />
+          <ImageBlock
+            src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1648319115/warehouse/design-sprint-timelapse_s4xeef.gif"
+            alt="design team pinning ideas to board in design sprint"
+            className="aspect-[4/3]"
+          />
+        </div>
+      </div>
+
+      <ContentCard id="exploration">
         <p>
-          {" "}
-          On top of that, how do you build a user interface that makes managing
-          such a massive scale of items easy and intuitive?
-        </p>
-        <p>
-          We ran through a barrage of tests to try and find something that would
-          work.
+          The Gentux warehouse is responsible for processing new orders and
+          receiving returned rental items so they can be cleaned, repaired, and
+          packaged for new orders. This involves many stations dedicated to each
+          of the individual processes. To tackle the overall problem, we decided
+          to dedicate a design sprint to each station.
         </p>
       </ContentCard>
 
@@ -474,7 +506,7 @@ const LookBuilder = () => (
           <li>Category exploration went up 15-20%</li>
           <li>Filter use is up 7-14x</li>
           <li>Average time on look builder pages went up</li>
-          <li>Items per look went up wich increases overall order value</li>
+          <li>Items per look went up which increases overall order value</li>
           <li>Customer service issues decreased</li>
         </ul>
       </ContentCard>

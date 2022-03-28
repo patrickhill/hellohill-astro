@@ -453,7 +453,7 @@ const LookBuilder = () => (
           <li>Category exploration went up 15-20%</li>
           <li>Filter use is up 7-14x</li>
           <li>Average time on look builder pages went up</li>
-          <li>Items per look went up wich increases overall order value</li>
+          <li>Items per look went up which increases overall order value</li>
           <li>Customer service issues decreased</li>
         </ul>
       </ContentCard>
