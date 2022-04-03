@@ -78,7 +78,7 @@ caseStudies.map(caseStudy=>{console.log(caseStudy.title)})
                       <div class={`${roundedClassNames} webkit-corner-fix`}>
                       {caseStudy.heroVideoUrl ?
                         <video
-                          class={`${roundedClassNames} lazy-load aspect-4/3 w-full`}
+                          class={`lazy-load aspect-4/3 w-full`}
                           loop
                           autoplay
                           playsinline
@@ -88,7 +88,7 @@ caseStudies.map(caseStudy=>{console.log(caseStudy.title)})
                         />
                         :
                         <img
-                          class={`${roundedClassNames} lazy-load aspect-4/3 w-full`}
+                          class={`lazy-load aspect-4/3 w-full`}
                           data-src={caseStudy.heroImageUrl}
                           alt={caseStudy.heroAlt}
                         />
