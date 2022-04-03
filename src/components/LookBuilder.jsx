@@ -5,6 +5,8 @@ import Button from "./Button";
 import ContentCard from "./ContentCard";
 import Footer from "./Footer";
 import { roundedClassNames } from "./roundedClassNames";
+import VideoBlock from "./VideoBlock";
+import ImageBlock from "./ImageBlock";
 
 const title = "The Look Builder";
 const desc = "Visualizing custom suit combinations";
@@ -15,36 +17,6 @@ const heroVideoUrl =
 const tags = "caseStudy";
 const layout = "caseStudyLayout.html";
 const date = "2020-03-28";
-
-const ImageBlock = ({ ...props }) => (
-  <div
-    className={`${roundedClassNames} webkit-corner-fix ${
-      props.className ? props.className : ""
-    }`}
-  >
-    <img className={`lazy-load`} loading="lazy" data-src={props.src} />
-  </div>
-);
-const VideoBlock = ({ ...props }) => (
-  <div className={`${props.className ? props.className : ""}`}>
-    <div
-      className={`${roundedClassNames} webkit-corner-fix h-full bg-white ${
-        props.className ? props.className : ""
-      }`}
-    >
-      <video
-        className={`lazy-load mx-auto`}
-        autoPlay
-        loop
-        muted
-        playsInline
-        preload="metadata"
-        loading="lazy"
-        data-src={props.src}
-      ></video>
-    </div>
-  </div>
-);
 
 const LookBuilder = () => (
   <>

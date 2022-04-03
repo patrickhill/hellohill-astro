@@ -55,7 +55,7 @@ const Footer = ({ className = "" }) => (
                     Note:
                   </label>
                   <textarea
-                    className="w-full rounded-lg border border-gray-300 p-16 font-sans text-base font-extralight placeholder-gray-500 outline-none focus:border-aqua focus:bg-gray-100"
+                    className=" w-full rounded-lg border border-gray-300 p-16 font-sans text-base font-extralight placeholder-gray-500 outline-none focus:border-aqua focus:bg-gray-100"
                     id="form-note"
                     type="text"
                     name="note"
