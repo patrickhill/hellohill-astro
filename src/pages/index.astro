@@ -9,6 +9,9 @@ import LatestWork from "../latestWork";
 import { roundedClassNames } from "../components/roundedClassNames";
 
 let title = "Patrick Hill Design";
+const caseStudies = await Astro.fetchContent('./casestudies/**/*.md')
+console.log(Object.keys(caseStudies[0]))
+caseStudies.map(caseStudy=>{console.log(caseStudy.title)})
 ---
 
 <html lang="en">
@@ -63,45 +66,48 @@ let title = "Patrick Hill Design";
           </div>
           <div class="w-full max-w-2xl space-y-64">
             
-
-           
-
-            <div class="rounded-[1.1rem] bg-gradient-brand p-2 sm:rounded-[1.9rem]">
-              <a
-                href="/casestudies/lookbuilder"
-                class={`hover-3d block !overflow-visible rounded-[1.05rem] bg-gray-800 p-16 transition duration-300   hover:bg-gray-700 sm:rounded-[1.85rem] sm:p-24`}
-              >
-                <div class="perspective">
-                  <div class="hover-3d-target will-change transition duration-[300ms] ease-out">
-                    <div class={`${roundedClassNames} webkit-corner-fix`}>
-                      <video
-                        class={`${roundedClassNames} lazy-load aspect-4/3 w-full`}
-                        loop
-                        autoplay
-                        playsinline
-                        muted
-                        data-src="https://res.cloudinary.com/dl4btvfxp/video/upload/v1644700337/home/200504-093605_dev8kc.mp4"
-                        alt="Look Builder UI"
-                      />
+            {caseStudies.map(caseStudy => 
+              <div class="rounded-[1.1rem] bg-gradient-brand p-2 sm:rounded-[1.9rem]">
+                <a
+                  href={caseStudy.url}
+                  class={`hover-3d block !overflow-visible rounded-[1.05rem] bg-gray-800 p-16 transition duration-300   hover:bg-gray-700 sm:rounded-[1.85rem] sm:p-24`}
+                >
+                  <div class="perspective">
+                    <div class="hover-3d-target will-change transition duration-[300ms] ease-out">
+                      <div class={`${roundedClassNames} webkit-corner-fix`}>
+                      {caseStudy.heroVideoUrl ?
+                        <video
+                          class={`${roundedClassNames} lazy-load aspect-4/3 w-full`}
+                          loop
+                          autoplay
+                          playsinline
+                          muted
+                          data-src={caseStudy.heroVideoUrl}
+                          alt={caseStudy.heroAlt}
+                        />
+                        :
+                        <img
+                          class={`${roundedClassNames} lazy-load aspect-4/3 w-full`}
+                          data-src={caseStudy.heroImageUrl}
+                          alt={caseStudy.heroAlt}
+                        />
+                        }
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="mt-32 flex justify-between space-x-8">
-                  <div>
-                    <SubHeading as="h2">The Look Builder</SubHeading>
-                    <p class="text-base font-light text-white">
-                      Visualizing custom suit combinations
-                    </p>
+                  <div class="mt-32 flex justify-between space-x-8">
+                    <div>
+                      <SubHeading as="h2">{caseStudy.title}</SubHeading>
+                      <p class="text-base font-light text-white">
+                        {caseStudy.desc}
+                      </p>
+                    </div>
+                    <Button>Read</Button>
                   </div>
-                  <Button>Read</Button>
-                </div>
-              </a>
-            </div>
+                </a>
+              </div>
+            )}
 
-
-
-
-            
           </div>
         </div>
       </div>
