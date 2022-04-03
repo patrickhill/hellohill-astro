@@ -13,5 +13,3 @@ date: "2020-03-28"
 <h1 class="text-3xl text-white">{frontmatter.title}</h1>
 
 <Button>test</Button>
-
-# lskdf
