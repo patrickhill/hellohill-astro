@@ -132,3 +132,7 @@ textarea {
 .webkit-corner-fix {
   -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
+
+.perspective {
+  perspective: 2000px;
+}

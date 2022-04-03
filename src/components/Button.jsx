@@ -1,7 +1,7 @@
 import React from "react";
 import { roundedClassNames } from "./roundedClassNames";
 
-const Button = ({ big, className = "", ...props }) => {
+const Button = ({ big = false, className = "", ...props }) => {
   let bigClassNames = big ? "py-32 text-lg" : "py-8 sm:py-16 text-base";
 
   let baseClassNames = `
@@ -21,7 +21,11 @@ const Button = ({ big, className = "", ...props }) => {
   `;
 
   return props.href ? (
-    <a href={props.href} className={`${baseClassNames} ${className}`} {...props}>
+    <a
+      href={props.href}
+      className={`${baseClassNames} ${className}`}
+      {...props}
+    >
       {props.children}
     </a>
   ) : (

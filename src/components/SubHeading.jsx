@@ -1,6 +1,6 @@
 import React from "react";
 
-const SubHeading = ({ as, className, ...props }) => {
+const SubHeading = ({ as, className = "", ...props }) => {
   const tag = as ? as : `div`;
   const CustomTag = tag;
   return (
