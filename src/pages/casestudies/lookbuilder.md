@@ -10,8 +10,8 @@ setup: |
   import ImageBlock from "../../components/ImageBlock"
 title: "The Look Builder"
 desc: "Visualizing custom suit combinations"
-heroImageUrl: "https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/lookbuilder-hero_zabett.jpg"
 heroVideoUrl: "https://res.cloudinary.com/dl4btvfxp/video/upload/v1644700337/home/200504-093605_dev8kc.mp4"
+heroAlt: "Look Builder UI"
 tags: "caseStudy"
 date: "2020-03-28"
 ---

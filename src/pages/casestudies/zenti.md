@@ -3,9 +3,9 @@ layout: "../../layouts/casestudy.astro"
 setup: |
   import Button from '../../components/Button'
 title: "Zenti"
-desc: "Visualizing custom suit combinations"
-heroImageUrl: "https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/lookbuilder-hero_zabett.jpg"
-heroVideoUrl: "https://res.cloudinary.com/dl4btvfxp/video/upload/v1644700337/home/200504-093605_dev8kc.mp4"
+desc: "A simple meditation timer"
+heroImageUrl: "https://res.cloudinary.com/dl4btvfxp/image/upload/w_620,dpr_2/v1648307444/zenti/zenti_20220326-110728_gmtkj9.jpg"
+heroAlt: "Zenti Timer Screenshot"
 tags: "caseStudy"
 date: "2020-03-28"
 ---

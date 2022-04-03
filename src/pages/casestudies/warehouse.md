@@ -10,8 +10,8 @@ setup: |
   import ImageBlock from "../../components/ImageBlock"
 title: "The Warehouse"
 desc: "Building a distribution center from scratch"
-heroImageUrl: "https://res.cloudinary.com/dl4btvfxp/image/upload/v1644701684/look%20builder/lookbuilder-hero_zabett.jpg"
-heroVideoUrl: "https://res.cloudinary.com/dl4btvfxp/video/upload/v1644700337/home/200504-093605_dev8kc.mp4"
+heroImageUrl: "https://res.cloudinary.com/dl4btvfxp/image/upload/h_1,w_0.95,c_crop,g_west/w_0.6,h_0.8,c_crop,g_center/w_620,ar_4:3,c_fill,dpr_2/v1648302304/warehouse/4T9A8728_v3eeut.jpg"
+heroAlt: "Gentux shipping box in warehouse"
 tags: "caseStudy"
 date: "2020-03-28"
 ---
