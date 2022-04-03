@@ -12,7 +12,10 @@ title: "The Look Builder"
 desc: "Visualizing custom suit combinations"
 heroVideoUrl: "https://res.cloudinary.com/dl4btvfxp/video/upload/v1644700337/home/200504-093605_dev8kc.mp4"
 heroAlt: "Look Builder UI"
-tags: "caseStudy"
+tags:
+  - design
+  - dev
+  - 3d
 publishDate: "2020-03-28"
 ---
 
