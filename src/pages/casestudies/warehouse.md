@@ -13,7 +13,7 @@ desc: "Building a distribution center from scratch"
 heroImageUrl: "https://res.cloudinary.com/dl4btvfxp/image/upload/h_1,w_0.95,c_crop,g_west/w_0.6,h_0.8,c_crop,g_center/w_620,ar_4:3,c_fill,dpr_2/v1648302304/warehouse/4T9A8728_v3eeut.jpg"
 heroAlt: "Gentux shipping box in warehouse"
 tags: "caseStudy"
-date: "2020-03-28"
+publishDate: "2022-01-01"
 ---
 
 <Fragment slot="nav">

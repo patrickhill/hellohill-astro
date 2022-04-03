@@ -13,7 +13,7 @@ desc: "Visualizing custom suit combinations"
 heroVideoUrl: "https://res.cloudinary.com/dl4btvfxp/video/upload/v1644700337/home/200504-093605_dev8kc.mp4"
 heroAlt: "Look Builder UI"
 tags: "caseStudy"
-date: "2020-03-28"
+publishDate: "2020-03-28"
 ---
 
 <Fragment slot="nav">

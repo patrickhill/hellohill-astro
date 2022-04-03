@@ -10,6 +10,7 @@ import { roundedClassNames } from "../components/roundedClassNames";
 
 let title = "Patrick Hill Design";
 const caseStudies = await Astro.fetchContent('./casestudies/**/*.md')
+  .sort((a, b) => new Date(b.publishDate).valueOf() - new Date(a.publishDate).valueOf());
 console.log(Object.keys(caseStudies[0]))
 caseStudies.map(caseStudy=>{console.log(caseStudy.title)})
 ---

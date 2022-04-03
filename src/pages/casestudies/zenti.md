@@ -7,7 +7,7 @@ desc: "A simple meditation timer"
 heroImageUrl: "https://res.cloudinary.com/dl4btvfxp/image/upload/w_620,dpr_2/v1648307444/zenti/zenti_20220326-110728_gmtkj9.jpg"
 heroAlt: "Zenti Timer Screenshot"
 tags: "caseStudy"
-date: "2020-03-28"
+publishDate: "2022-04-03"
 ---
 
 <h1 class="text-3xl text-white">{frontmatter.title}</h1>
