@@ -1,5 +1,7 @@
 ---
 import Header from "../components/Header";
+import BigHeading from "../components/BigHeading";
+import Footer from "../components/Footer";
 const { content } = Astro.props;
 ---
 
@@ -20,7 +22,21 @@ const { content } = Astro.props;
   <body class="bg-gray-800">
     <Header />
 
-    <slot />
+    <div class="container">
+      <BigHeading as="h1">{content.title}</BigHeading>
+    </div>
+
+    <div
+      class="container top-0 z-50 mb-64 mt-16 flex flex-wrap gap-x-16 gap-y-8 bg-gray-800 sm:sticky sm:mb-128"
+    >
+      <slot name="nav" />
+    </div>
+
+    <div class="space-y-64 overflow-hidden px-24 sm:space-y-128">
+      <slot />
+
+      <Footer />
+    </div>
 
     <script type="text/javascript" src={Astro.resolve("../scripts/scripts.js")}
     ></script>
