@@ -6,28 +6,6 @@ const theme = {
     xl: "1280px",
     "2xl": "1536px",
   },
-  colors: {
-    current: 'currentColor',
-    mint: "#9cffd8",
-    aqua: "#3BDFDF",
-    tennis: "#DEFFB5",
-    transparent: "transparent",
-
-    black: "#000",
-    white: "#fff",
-
-    gray: {
-      100: "#fbfbfb",
-      200: "#ededed",
-      300: "#e2e2e2",
-      400: "#cbcbcb",
-      500: "#a0a0a0",
-      600: "#717171",
-      700: "#4a4a4a",
-      800: "#282828",
-      900: "#1a1a1a",
-    },
-  },
   spacing: {
     0: "0",
     1: "1px",
@@ -150,7 +128,7 @@ const theme = {
   },
   extend: {
     aspectRatio: {
-      '4/3': '4 / 3',
+      "4/3": "4 / 3",
     },
     backgroundImage: (theme) => ({
       "gradient-brand": "linear-gradient(-8deg, #3BDFDF, #DEFFB5)",
@@ -158,6 +136,24 @@ const theme = {
     backgroundSize: {
       full: "100% 100%",
       expand: "100% 300%",
+    },
+    colors: {
+      current: "currentColor",
+      mint: "#9cffd8",
+      aqua: "#3BDFDF",
+      tennis: "#DEFFB5",
+
+      gray: {
+        100: "#fbfbfb",
+        200: "#ededed",
+        300: "#e2e2e2",
+        400: "#cbcbcb",
+        500: "#a0a0a0",
+        600: "#717171",
+        700: "#4a4a4a",
+        800: "#282828",
+        900: "#1a1a1a",
+      },
     },
   },
 };
