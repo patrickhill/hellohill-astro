@@ -122,3 +122,7 @@ To keep things user friendly I tried to find a balance between simplified option
 <div class="mx-auto w-full max-w-[1182px]">
 <ImageBlock  src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172140/zenti/zenti-mocks-20220625-113818_s1uoyx.jpg" alt="zenti design mockups"  className="aspect-[2128/907] p-32" />
 </div>
+
+<div class="mx-auto w-full max-w-[1182px]">
+<ImageBlock  src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172933/zenti/zenti-final-crop-20220625-120141_j4hzco.jpg" alt="zenti final design"  className="aspect-4/3" />
+</div>
