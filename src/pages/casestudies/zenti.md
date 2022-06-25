@@ -54,10 +54,20 @@ publishDate: "2022-04-03"
 </ContentCard>
 
 <div class=`mx-auto w-full max-w-[1182px] ${roundedClassNames} bg-gray-700 bg-opacity-70 border border-gray-600 text-center pt-64 lg:pt-128 px-32`>
+  <h2 class="text-3xl font-bold text-white">Wait, but why?</h2>
+  <p class="text-gray-500 font-light text-lg pt-8 pb-32 lg:pb-64">Aren’t there enough meditation apps out&nbsp;there?</p>
 
-<h2 class="text-3xl font-bold text-white">Wait, but why?</h2>
-<p class="text-gray-500 font-light text-lg pt-8 pb-32 lg:pb-64">Aren’t there enough meditation apps out&nbsp;there?</p>
-
-<img src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656174108/zenti/zenti-competitors-20220625-113818_twshgs.png" alt="zenti competitor screenshots" class="aspect-[10/3]" />
-
+  <img src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656174108/zenti/zenti-competitors-20220625-113818_twshgs.png" alt="zenti competitor screenshots" class="aspect-[10/3]" />
 </div>
+
+<ContentCard>
+<h3>1. An educational exercise</h3>
+<p>I’ve been trying to learn iOS development on and off for years. It never really stuck. When SwiftUI came along, everything changed. It just made sense to me. I had fun with it for a while following along with Recreate UI. Then, I decided to get more serious about and commited to doing 100 Days of SwiftUI.
+</p>
+
+<p>
+When I finished those courses, I couldn’t wait to build my own app. This was the middle of the pandemic so I’d also been learning more about meditation as a way to relax and cope with everything going on. I found myself constantly frustrated by the apps on the market and decided that would be a great target for my first app. I could start the app off simple and let it grow as I learned more.</p>
+
+<h3>2. Finding a niche in a crowded market</h3>
+<p>There are tons of apps in the meditation space and while this was a learning exercise for me, I figured I should at least try and make something that others would find useful. Otherwise, what’s the point? So, I started thinking about what frustrates me in the other apps and how do I to stand out? I found my answers very quickly.</p>
+</ContentCard>
