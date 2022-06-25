@@ -71,3 +71,7 @@ When I finished those courses, I couldn’t wait to build my own app. This was t
 <h3>2. Finding a niche in a crowded market</h3>
 <p>There are tons of apps in the meditation space and while this was a learning exercise for me, I figured I should at least try and make something that others would find useful. Otherwise, what’s the point? So, I started thinking about what frustrates me in the other apps and how do I to stand out? I found my answers very quickly.</p>
 </ContentCard>
+
+<p class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-thin leading-tight bg-gradient-brand text-clip max-w-screen-lg mx-auto text-center">
+  Get out of my way, I just<br class="hidden sm:block"/> want to&nbsp;meditate.
+</p>
