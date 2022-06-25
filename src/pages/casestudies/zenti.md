@@ -17,12 +17,12 @@ publishDate: "2022-04-03"
 ---
 
 <div class="mx-auto w-full max-w-[1182px]">
-    <ImageBlock
-      src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172934/zenti/zenti-hero-20220625-115844_anxfhr.jpg"
-      alt="gentux warehouse clothing rack"
-      className="aspect-4/3"
-    />
-  </div>
+  <ImageBlock
+    src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172934/zenti/zenti-hero-20220625-115844_anxfhr.jpg"
+    alt="zenti app hero image"
+    className="aspect-4/3"
+  />
+</div>
 
 <ContentCard id="intro">
   <h2 class="mt-0">Intro</h2>
@@ -51,3 +51,13 @@ publishDate: "2022-04-03"
     <h4>My Role:</h4>
     <p>Product Design, UI Design, Engineering</p>
   </div>
+</ContentCard>
+
+<div class=`mx-auto w-full max-w-[1182px] ${roundedClassNames} bg-gray-700 bg-opacity-70 border border-gray-600 text-center pt-64 lg:pt-128 px-32`>
+
+<h2 class="text-3xl font-bold text-white">Wait, but why?</h2>
+<p class="text-gray-500 font-light text-lg pt-8 pb-32 lg:pb-64">Aren’t there enough meditation apps out&nbsp;there?</p>
+
+<img src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656174108/zenti/zenti-competitors-20220625-113818_twshgs.png" alt="zenti competitor screenshots" class="aspect-[10/3]" />
+
+</div>
