@@ -104,3 +104,13 @@ My biggest problem with the existing mediation apps was the focus on beginners. 
 
 <p>In short, If you wanted to do a simple, unguided meditation, it was a pain. I was going to try and fix that.</p>
 </ContentCard>
+
+<ContentCard>
+<h2>Design</h2>
+<p>
+I went through many design iterations but they all shared one core idea. Make it as easy as possible to start a meditation when you open the app. That meant surfacing details like the duration and interval settings on the main screen.
+</p>
+<p>
+To keep things user friendly I tried to find a balance between simplified options that would make starting a timer quick while also providing advanced settings for those that needed them.
+</p>
+</ContentCard>
