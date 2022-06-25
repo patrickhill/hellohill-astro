@@ -57,7 +57,7 @@ publishDate: "2022-04-03"
   <h2 class="text-3xl font-bold text-white">Wait, but why?</h2>
   <p class="text-gray-500 font-light text-lg pt-8 pb-32 lg:pb-64">Aren’t there enough meditation apps out&nbsp;there?</p>
 
-  <img src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656174108/zenti/zenti-competitors-20220625-113818_twshgs.png" alt="zenti competitor screenshots" class="aspect-[10/3]" />
+  <img src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656174108/zenti/zenti-competitors-20220625-113818_twshgs.png" alt="zenti competitor screenshots" class="aspect-[10/3]" loading="lazy" />
 </div>
 
 <ContentCard>
@@ -125,4 +125,87 @@ To keep things user friendly I tried to find a balance between simplified option
 
 <div class="mx-auto w-full max-w-[1182px]">
 <ImageBlock  src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172933/zenti/zenti-final-crop-20220625-120141_j4hzco.jpg" alt="zenti final design"  className="aspect-4/3" />
+</div>
+
+<ContentCard>
+<h2>The “Final” Product</h2>
+<p class="!mt-16">
+Zenti ended up in a pretty good spot. I was able to incorporate all the main features I wanted and I’m pretty happy with the results.
+</p>
+
+<h3>Highlights:</h3>
+<ul class="!mt-8">
+<li>Large play/pause button</li>
+<li>Swipeable options to save space while allowing easy access to a full range of choices</li>
+<li>Bottom tap bar to keep app navigation within reach</li>
+<li>Simplified stats screen with key highlights</li>
+<li>Light and dark modes</li>
+<li>Themes</li>
+</ul>
+</ContentCard>
+
+<img class="max-w-[1182px] mx-auto aspect-[2554/1527]" loading="lazy" src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172144/zenti/zenti-screenshots-final-1-20220625-113818_lcp3u0.png" />
+<img class="max-w-[1182px] mx-auto aspect-[2554/1527]" loading="lazy" src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172144/zenti/zenti-screenshots-final-2-20220625-113818-1_pvpora.png" />
+<img class="max-w-[1182px] mx-auto aspect-[2554/1527]" loading="lazy" src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172144/zenti/zenti-screenshots-final-2-20220625-113818_oztf5i.png" />
+
+<ContentCard>
+<h2>Challenges</h2>
+<p class="!mt-8">
+Of course learning a new programming language is going to be hard but that was expected so it didn’t stand out as a big deal. It’s always the unexpected challenges that stick with me. 
+</p>
+
+<h3>Dark Mode</h3>
+<p class="!mt-8">
+One of those was dark mode. I’ve been designing UIs for years but haven’t had to tackle dark mode before. Even for an app a small as this one, it was tough because I had to combine it with themes. For every color theme I wanted to provide, I needed to think through how that would work in light and dark mode on every screen. 
+</p>
+<p>
+Here are a few of the ways I tackled this problem:
+</p>
+<ul class="!mt-8">
+<li>I simplified the app design by moving from a full background color to using color as accent. This reduced the color complexity.</li>
+<li>I relied on Apple’s system colors instead of cutsom ones becaus they provide color variants for light and dark modes plus options to increase legibility.</li>
+</ul>
+<p>
+I have a new found respect for the work that goes into creating dark mode especially for bigger apps.
+</p>
+</ContentCard>
+
+<p class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-thin leading-tight bg-gradient-brand text-clip max-w-screen-lg mx-auto text-center">
+  How’s it going? So,&nbsp;so.
+</p>
+
+<div class="grid grid-cols-2 gap-32">
+<img class=`${roundedClassNames} webkit-corner-fix object-fill p-24 bg-white` src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172138/zenti/zenti-chart-sales-20220625-113818_jhjtsm.jpg" alt="sales chart" loading="lazy" />
+<img class=`${roundedClassNames} webkit-corner-fix object-fill p-24 bg-white` src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172138/zenti/zenti-chart-sessions-20220625-113818_ukjnr8.jpg" alt="sessions chart" loading="lazy" />
+<img class=`${roundedClassNames} webkit-corner-fix object-fill p-24 bg-white` src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172138/zenti/zenti-chart-updates-20220625-113818_ily5uk.jpg" alt="updates chart" loading="lazy" />
+<img class=`${roundedClassNames} webkit-corner-fix object-fill p-24 bg-white` src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172138/zenti/zenti-chart-active_devices-20220625-113818_tmzovm.jpg" alt="devices chart" loading="lazy" />
+<img class=`${roundedClassNames} webkit-corner-fix object-fill p-24 bg-white` src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172138/zenti/zenti-chart-downloads-20220625-113818_oufe03.jpg" alt="downloads chart" loading="lazy" />
+<img class=`${roundedClassNames} webkit-corner-fix object-fill p-24 bg-white` src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172138/zenti/zenti-chart-regions-20220625-113818_yaqcct.jpg" alt="regions chart" loading="lazy" />
+</div>
+
+<ContentCard>
+<h2>Results</h2>
+<p>
+Overall, I’m happy that people are using it. Some enjoy it enough to give me money.
+</p>
+<p>
+If this wasn’t the case, I’d still make the app because I find it useful and building things is an incredible way to learn.
+</p>
+
+<h2>Insights</h2>
+<p>
+There are some insights I’ve gained from that data though. 
+</p>
+<p>
+The first is that I didn’t expect the majority of users to be from outside the United States. Don’t know why I assumed that but now I’m making strides where I can to accomodate other languages. An example is the interval labels. Instead of using words like half, third, quarter, I switched to fractions like 1/2, 1/3, 1/4. The ultamite goal would be to have multilingual translations.
+</p>
+<p>
+The second is that sales always coincide with updates. So I need to coordinate features and requests for upgrades.
+</p>
+</ContentCard>
+
+<div class="flex justify-center">
+<a class="hover:opacity-70 transition" href="https://apps.apple.com/us/app/zenti-meditation-timer/id1587887322">
+<img src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172138/zenti/zenti-appstore-badge-20220625-113818_c0xfii.svg">
+</a>
 </div>
