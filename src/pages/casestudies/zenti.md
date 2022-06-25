@@ -75,3 +75,32 @@ When I finished those courses, I couldn’t wait to build my own app. This was t
 <p class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-thin leading-tight bg-gradient-brand text-clip max-w-screen-lg mx-auto text-center">
   Get out of my way, I just<br class="hidden sm:block"/> want to&nbsp;meditate.
 </p>
+
+<ContentCard>
+<p>
+My biggest problem with the existing mediation apps was the focus on beginners. They simplified the timer so much that you couldn’t dial in specific settings. At the same time they flooded their apps with distractions like content feeds, tutorials, social media, and other features that I cared nothing about.
+</p>
+<h3>What was available:</h3>
+<ul class="!mt-8 !ml-24 text-pink-700">
+<li>Forced Account Creation</li>
+<li>Data Tracking</li>
+<li>Subscriptions</li>
+<li>Learn, Discover</li>
+<li>Content Feeds</li>
+<li>Social Media</li>
+<li>Events, Celebrities</li>
+<li>Hard to use</li>
+</ul>
+
+<h3>What I wanted:</h3>
+<ul class="!mt-8 !ml-24 text-emerald-700">
+<li>A Timer</li>
+<li>Intervals</li>
+<li>HealthKit Support</li>
+<li>Stats</li>
+<li>Customization</li>
+<li>Easy to Use</li>
+</ul>
+
+<p>In short, If you wanted to do a simple, unguided meditation, it was a pain. I was going to try and fix that.</p>
+</ContentCard>
