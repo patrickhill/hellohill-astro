@@ -114,3 +114,11 @@ I went through many design iterations but they all shared one core idea. Make it
 To keep things user friendly I tried to find a balance between simplified options that would make starting a timer quick while also providing advanced settings for those that needed them.
 </p>
 </ContentCard>
+
+<div class="mx-auto w-full max-w-[1182px]">
+<ImageBlock src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172146/zenti/zenti-sketches-20220625-113818_d7zygw.jpg" alt="zenti design sketches"  className="aspect-[2012/1147] p-32" />
+</div>
+
+<div class="mx-auto w-full max-w-[1182px]">
+<ImageBlock  src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172140/zenti/zenti-mocks-20220625-113818_s1uoyx.jpg" alt="zenti design mockups"  className="aspect-[2128/907] p-32" />
+</div>
