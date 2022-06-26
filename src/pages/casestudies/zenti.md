@@ -112,8 +112,12 @@ My biggest problem with the existing mediation apps was the focus on beginners. 
 <li>Easy to Use</li>
 </ul>
 </div>
-<p>In short, If you wanted to do a simple, unguided meditation, it was a pain. I was going to try and fix that.</p>
+<p>In short, if you wanted to do a simple, unguided meditation, it was a pain. I was going to try and fix that.</p>
 </ContentCard>
+
+<p class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-thin leading-tight bg-gradient-brand text-clip max-w-screen-lg mx-auto text-center">
+  If you wanted to do an unguided meditation, it was a pain. I was going to try and fix&nbsp;that.
+</p>
 
 <ContentCard>
 <div class="space-y-16">
