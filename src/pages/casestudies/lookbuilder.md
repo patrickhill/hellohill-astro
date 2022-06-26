@@ -52,6 +52,7 @@ publishDate: "2020-03-28"
 <ContentCard id="intro">
   <h2 class="mt-0">Intro</h2>
   <hr class="border-gray-300" />
+  <div class="space-y-16">
   <h3>The Challenge</h3>
   <p>
     Create a way for customers to visualize thousands of suit, tux, tie
@@ -60,9 +61,12 @@ publishDate: "2020-03-28"
     primary way customers interact with the product. The company also runs
     multiple brands so the work needs to be reusable.
   </p>
+  </div>
+
+  <div class="space-y-16">
   <h3>Details</h3>
   <div
-    class="flex flex-col gap-8 rounded-b-lg bg-gray-100 p-32 sm:grid sm:gap-16 sm:rounded-b-2xl"
+    class="flex flex-col gap-8 rounded-b-lg bg-gray-200 p-32 sm:grid sm:gap-16 sm:rounded-b-2xl"
     style={{ gridTemplateColumns: "auto auto" }}
   >
     <h4>Resources:</h4>
@@ -75,12 +79,14 @@ publishDate: "2020-03-28"
     <h4>My Role:</h4>
     <p>UI Design, 3D Design, UI Dev, Design Leadership</p>
   </div>
+  </div>
 
 </ContentCard>
 
 <ContentCard id="exploration">
   <h2>Exploration</h2>
   <hr class="border-gray-300" />
+  <div class="space-y-16">
   <h3>Problems to Solve</h3>
   <p>
     The team knew from the get go that the hardest part would be the image
@@ -97,6 +103,7 @@ publishDate: "2020-03-28"
     We ran through a barrage of tests to try and find something that would
     work.
   </p>
+  </div>
 
 </ContentCard>
 
@@ -137,6 +144,7 @@ publishDate: "2020-03-28"
 </div>
 
 <ContentCard>
+<div class="space-y-16">
   <p>
     We developed a way to layer images so that items could be photographed
     separately and compiled together. We also figured out you could get
@@ -151,9 +159,11 @@ publishDate: "2020-03-28"
     everything. This was a small in-house team with other
     responsibilities, that wasn't going to work.
   </p>
+  </div>
 </ContentCard>
 
 <ContentCard>
+<div class="space-y-16">
   <h3>How do other companies do this?</h3>
   <p>
     We started digging and came across the answer pretty quickly: 3D
@@ -168,6 +178,7 @@ publishDate: "2020-03-28"
     and base 3d models could be reused for different material types. We
     decided to give it a shot.
   </p>
+  </div>
 </ContentCard>
 
 <div class="case-study-grid-images mx-auto w-full max-w-[1182px]">
@@ -186,6 +197,7 @@ publishDate: "2020-03-28"
 </div>
 
 <ContentCard>
+<div class="space-y-16">
   <h3>3D for the Win!</h3>
   <p>I made some exciting discoveries.</p>
   <ol>
@@ -206,6 +218,7 @@ publishDate: "2020-03-28"
     That meant we could easily scale up the pipeline if we needed to
     re-render a lot of items.
   </p>
+  </div>
 </ContentCard>
 
 <div class="case-study-grid-images mx-auto w-full max-w-[1182px]">
@@ -220,6 +233,7 @@ publishDate: "2020-03-28"
 </div>
 
 <ContentCard>
+<div class="space-y-16">
   <h4> The Rendering Pipeline</h4>
   <p>
     I ended up creating an entire 3D rendering tool set. We had a master
@@ -229,11 +243,13 @@ publishDate: "2020-03-28"
     object name (e.g. bow tie) and material (e.g. pin dot fabric) and the
     computer would start spitting out images in the background!
   </p>
+  </div>
 </ContentCard>
 
 <ContentCard id="process">
   <h2>UI Design Process</h2>
   <hr class="border-gray-300" />
+  <div class="space-y-16">
   <p>
     The design process for this project was a ton of fun. We experimented
     a lot, shot for the moon, then backed off a little for something a
@@ -253,6 +269,7 @@ publishDate: "2020-03-28"
     </li>
     <li>Mini user testing with friends, co-workers, family members</li>
   </ul>
+  </div>
 </ContentCard>
 
 <div>
@@ -319,6 +336,7 @@ publishDate: "2020-03-28"
 <ContentCard id="prototyping">
   <h2>Prototyping</h2>
   <hr class="border-gray-300" />
+  <div class="space-y-16">
   <h3>Pedal to the Metal!</h3>
   <p>
     Once we felt like things were starting to mesh and we had stakeholder
@@ -327,7 +345,7 @@ publishDate: "2020-03-28"
     of design refinement happening. Many details of a design don't really
     make sense until you get them working in code.
   </p>
-
+</div>
 </ContentCard>
 
 <div class={`mx-auto w-full max-w-[400px] `}>
@@ -351,6 +369,7 @@ publishDate: "2020-03-28"
 </div>
 
 <ContentCard>
+<div class="space-y-16">
   <h3>User Testing</h3>
   <p>
     For the final stage, we conducted formal user testing with an online
@@ -360,6 +379,8 @@ publishDate: "2020-03-28"
     wrong. It continues to amaze me how much you learn from watching
     people use an app or website.
   </p>
+  </div>
+  <div class="space-y-16">
   <h4> Here were a few key findings from the tests:</h4>
   <ol>
     <li>Getting back to the main item list screen was troublesome. </li>
@@ -373,6 +394,7 @@ publishDate: "2020-03-28"
     </li>
     <li>Editing looks was a little tough for a few users.</li>
   </ol>
+  </div>
 </ContentCard>
 
 <div class={`mx-auto w-full max-w-[1182px]  `}>
@@ -383,6 +405,7 @@ publishDate: "2020-03-28"
 </div>
 
 <ContentCard>
+<div class="space-y-16">
   <h4> We addressed the issues with the following changes:</h4>
   <ol>
     <li>Added back button </li>
@@ -399,6 +422,7 @@ publishDate: "2020-03-28"
       edit function buttons.
     </li>
   </ol>
+  </div>
 </ContentCard>
 
 <ContentCard>
@@ -417,12 +441,15 @@ publishDate: "2020-03-28"
 <ContentCard id="conclusion">
   <h2>Conclusion</h2>
   <hr class="border-gray-300" />
+  <div class="space-y-16">
   <p>
     The final code base was handed off to the engineering team to
     integrate into the Gentux website. In the end, the UI team
     accomplished a staggering amount of great work over a relatively small
     amount of time.
   </p>
+  </div>
+  <div class="space-y-16">
   <h3>The Final Features:</h3>
   <ul>
     <li>
@@ -438,7 +465,7 @@ publishDate: "2020-03-28"
       projects.
     </li>
   </ul>
-
+</div>
 </ContentCard>
 
 <div class="mx-auto w-full max-w-3xl">
