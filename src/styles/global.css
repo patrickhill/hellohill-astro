@@ -33,7 +33,7 @@
   @apply font-extralight;
   @apply list-outside;
   @apply ml-24;
-  @apply md:ml-0;
+  @apply space-y-8;
 }
 .prose ul {
   @apply list-disc;
