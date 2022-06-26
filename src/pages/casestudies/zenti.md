@@ -157,7 +157,7 @@ Zenti ended up in a pretty good spot. I was able to incorporate all the main fea
 <ul>
 <li>Large play/pause button</li>
 <li>Swipeable options to save space while allowing easy access to a full range of choices</li>
-<li>Bottom tap bar to keep app navigation within reach</li>
+<li>Bottom tab bar to keep app navigation within reach</li>
 <li>Simplified stats screen with key highlights</li>
 <li>Light and dark modes</li>
 <li>Themes</li>
@@ -189,7 +189,7 @@ Here are a few of the ways I tackled this problem:
 </p>
 <ul>
 <li>I simplified the app design by moving from a full background color to using color as accent. This reduced the color complexity.</li>
-<li>I relied on Apple’s system colors instead of cutsom ones becaus they provide color variants for light and dark modes plus options to increase legibility.</li>
+<li>I relied on Apple’s system colors instead of custom ones becaus they provide color variants for light and dark modes plus options to increase legibility.</li>
 </ul>
 <p>
 I have a new found respect for the work that goes into creating dark mode especially for bigger apps.
@@ -232,10 +232,7 @@ I have a new found respect for the work that goes into creating dark mode especi
 <div class="space-y-16">
 <h2>Results</h2>
 <p>
-Overall, I’m happy that people are using it. Some enjoy it enough to give me money.
-</p>
-<p>
-If this wasn’t the case, I’d still make the app because I find it useful and building things is an incredible way to learn.
+Overall, I’m happy that people are using it. Some enjoy it enough to give me money. If this wasn’t the case, I’d still make the app because I find it useful and building things is an incredible way to learn.
 </p>
 </div>
 
@@ -247,10 +244,10 @@ There are some insights I’ve gained from that data though.
 
 <ol>
 <li>
-The first is that I didn’t expect the majority of users to be from outside the United States. Don’t know why I assumed that but now I’m making strides where I can to accomodate other languages. An example is the interval labels. Instead of using words like half, third, quarter, I switched to fractions like 1/2, 1/3, 1/4. The ultamite goal would be to have multilingual translations.
+The first is that I didn’t expect the majority of users to be from outside the United States. I Don’t know why I assumed that but now I’m making strides to accommodate other languages. An example is the interval labels. Instead of using words like half, third, quarter, I switched to fractions like 1/2, 1/3, 1/4. The ultimate goal would be to have multilingual translations.
 </li>
 <li>
-The second is that sales always coincide with updates. So I need to coordinate features and requests for upgrades.
+The second is that sales always coincide with updates. So I need to coordinate my requests for people to upgrade with new feature releases.
 </li>
 </ol>
 </div>
