@@ -176,13 +176,31 @@ I have a new found respect for the work that goes into creating dark mode especi
   How’s it going? So,&nbsp;so.
 </p>
 
-<div class="grid grid-cols-2 gap-32">
-<img class=`${roundedClassNames} webkit-corner-fix object-fill p-24 bg-white` src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172138/zenti/zenti-chart-sales-20220625-113818_jhjtsm.jpg" alt="sales chart" loading="lazy" />
-<img class=`${roundedClassNames} webkit-corner-fix object-fill p-24 bg-white` src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172138/zenti/zenti-chart-sessions-20220625-113818_ukjnr8.jpg" alt="sessions chart" loading="lazy" />
-<img class=`${roundedClassNames} webkit-corner-fix object-fill p-24 bg-white` src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172138/zenti/zenti-chart-updates-20220625-113818_ily5uk.jpg" alt="updates chart" loading="lazy" />
-<img class=`${roundedClassNames} webkit-corner-fix object-fill p-24 bg-white` src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172138/zenti/zenti-chart-active_devices-20220625-113818_tmzovm.jpg" alt="devices chart" loading="lazy" />
-<img class=`${roundedClassNames} webkit-corner-fix object-fill p-24 bg-white` src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172138/zenti/zenti-chart-downloads-20220625-113818_oufe03.jpg" alt="downloads chart" loading="lazy" />
-<img class=`${roundedClassNames} webkit-corner-fix object-fill p-24 bg-white` src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172138/zenti/zenti-chart-regions-20220625-113818_yaqcct.jpg" alt="regions chart" loading="lazy" />
+<div class="grid sm:grid-cols-2 gap-32">
+<div class=`${roundedClassNames} webkit-corner-fix object-fill p-24 bg-white`>
+<h3 class="mb-8 font-sans text-base font-bold uppercase tracking-wide text-gray-600" >Sales</h3>
+<img src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172138/zenti/zenti-chart-sales-20220625-113818_jhjtsm.jpg" alt="sales chart" loading="lazy" />
+</div>
+<div class=`${roundedClassNames} webkit-corner-fix object-fill p-24 bg-white`>
+<h3 class="mb-8 font-sans text-base font-bold uppercase tracking-wide text-gray-600" >Sessions</h3>
+<img src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172138/zenti/zenti-chart-sessions-20220625-113818_ukjnr8.jpg" alt="sessions chart" loading="lazy" />
+</div>
+<div class=`${roundedClassNames} webkit-corner-fix object-fill p-24 bg-white`>
+<h3 class="mb-8 font-sans text-base font-bold uppercase tracking-wide text-gray-600" >Updates</h3>
+<img src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172138/zenti/zenti-chart-updates-20220625-113818_ily5uk.jpg" alt="updates chart" loading="lazy" />
+</div>
+<div class=`${roundedClassNames} webkit-corner-fix object-fill p-24 bg-white`>
+<h3 class="mb-8 font-sans text-base font-bold uppercase tracking-wide text-gray-600" >Active Devices</h3>
+<img src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172138/zenti/zenti-chart-active_devices-20220625-113818_tmzovm.jpg" alt="devices chart" loading="lazy" />
+</div>
+<div class=`${roundedClassNames} webkit-corner-fix object-fill p-24 bg-white`>
+<h3 class="mb-8 font-sans text-base font-bold uppercase tracking-wide text-gray-600" >Downloads</h3>
+<img src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172138/zenti/zenti-chart-downloads-20220625-113818_oufe03.jpg" alt="downloads chart" loading="lazy" />
+</div>
+<div class=`${roundedClassNames} webkit-corner-fix object-fill p-24 bg-white`>
+<h3 class="mb-8 font-sans text-base font-bold uppercase tracking-wide text-gray-600" >Regions</h3>
+<img class="max-w-[220px] w-full" src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656244706/zenti/zenti-chart-regions-20220625-113818_jr5pge.jpg" alt="regions chart" loading="lazy" />
+</div>
 </div>
 
 <ContentCard>
