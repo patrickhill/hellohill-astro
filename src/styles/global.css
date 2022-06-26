@@ -33,7 +33,7 @@
   @apply font-extralight;
   @apply list-outside;
   @apply ml-24;
-  @apply md:ml-0;
+  @apply space-y-8;
 }
 .prose ul {
   @apply list-disc;
@@ -131,4 +131,8 @@ textarea {
 
 .webkit-corner-fix {
   -webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+
+.perspective {
+  perspective: 2000px;
 }
