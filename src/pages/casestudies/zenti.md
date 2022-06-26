@@ -144,9 +144,11 @@ Zenti ended up in a pretty good spot. I was able to incorporate all the main fea
 </ul>
 </ContentCard>
 
-<img class="max-w-[1182px] mx-auto aspect-[2554/1527]" loading="lazy" src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172144/zenti/zenti-screenshots-final-1-20220625-113818_lcp3u0.png" />
-<img class="max-w-[1182px] mx-auto aspect-[2554/1527]" loading="lazy" src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172144/zenti/zenti-screenshots-final-2-20220625-113818-1_pvpora.png" />
-<img class="max-w-[1182px] mx-auto aspect-[2554/1527]" loading="lazy" src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656172144/zenti/zenti-screenshots-final-2-20220625-113818_oztf5i.png" />
+<div>
+<img class="max-w-[1182px] w-full mx-auto aspect-[2554/1527]" loading="lazy" src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656243278/zenti/zenti-screenshots-final-1-20220625-113818_lefgef.png" />
+<img class="max-w-[1182px] w-full mx-auto aspect-[2554/1527]" loading="lazy" src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656243277/zenti/zenti-screenshots-final-2-20220625-113818_wme8lo.png" />
+<img class="max-w-[1182px] w-full mx-auto aspect-[2554/1527]" loading="lazy" src="https://res.cloudinary.com/dl4btvfxp/image/upload/v1656243277/zenti/zenti-screenshots-final-2-20220625-113818-1_ti6ixj.png" />
+</div>
 
 <ContentCard>
 <h2>Challenges</h2>
