@@ -30,7 +30,7 @@ publishDate: "2022-04-03"
   <div class="space-y-16">
   <h3>Project</h3>
   <p>
-    Zenti Meditation Timer. Available in the <a class="text-sky-500 underline hover:text-sky-600" href="https://apps.apple.com/us/app/zenti-meditation-timer/id1587887322">AppStore</a>.
+    Zenti Meditation Timer. Available in the <a class="text-sky-600 underline hover:text-sky-600" href="https://apps.apple.com/us/app/zenti-meditation-timer/id1587887322">AppStore</a>.
   </p>
 </div>
 
@@ -66,16 +66,17 @@ publishDate: "2022-04-03"
 <ContentCard>
 <div class="space-y-16">
 <h3>1. An educational exercise</h3>
-<p>I’ve been trying to learn iOS development on and off for years. It never really stuck. When SwiftUI came along, everything changed. It just made sense to me. I had fun with it for a while following along with Recreate UI. Then, I decided to get more serious about and commited to doing 100 Days of SwiftUI.
+<p>I’ve been trying to learn iOS development on and off for years. It never really stuck. When SwiftUI came along, everything changed. It just made sense to me. I had fun with it for a while following along with <a class="text-sky-600 underline hover:text-sky-600" href="https://recreatecode.substack.com/about">Recreate UI</a>. Then, I decided to get more serious and committed to doing <a class="text-sky-600 underline hover:text-sky-600" href="https://www.hackingwithswift.com/100/swiftui">100 Days of SwiftUI</a>. When I finished those courses, I couldn’t wait to build my own app. 
 </p>
 
 <p>
-When I finished those courses, I couldn’t wait to build my own app. This was the middle of the pandemic so I’d also been learning more about meditation as a way to relax and cope with everything going on. I found myself constantly frustrated by the apps on the market and decided that would be a great target for my first app. I could start the app off simple and let it grow as I learned more.</p>
+This all happened in the middle of the pandemic so I’d also been learning more about meditation as a way to relax and cope with everything going on. I found myself constantly frustrated by the apps on the market and decided that would be a great target for my first app.
+</p>
 </div>
 
 <div class="space-y-16">
 <h3>2. Finding a niche in a crowded market</h3>
-<p>There are tons of apps in the meditation space and while this was a learning exercise for me, I figured I should at least try and make something that others would find useful. Otherwise, what’s the point? So, I started thinking about what frustrates me in the other apps and how do I to stand out? I found my answers very quickly.</p>
+<p>There are tons of apps in the meditation space and while this was a learning exercise for me, I figured I should at least try and make something that others would find useful. Otherwise, what’s the point? So, I started thinking about what frustrates me in the other apps and how I could stand out. I found my answers very quickly.</p>
 </div>
 </ContentCard>
 
@@ -85,7 +86,7 @@ When I finished those courses, I couldn’t wait to build my own app. This was t
 
 <ContentCard>
 <p>
-My biggest problem with the existing mediation apps was the focus on beginners. They simplified the timer so much that you couldn’t dial in specific settings. At the same time they flooded their apps with distractions like content feeds, tutorials, social media, and other features that I cared nothing about.
+My biggest problem with the existing mediation market was the flood of distractions. The apps had content feeds, tutorials, social media, events, and other features that I cared nothing about. I also struggled with the focus on beginners. They simplified the timer so much that you couldn’t dial in specific settings.
 </p>
 <div class="space-y-16">
 <h3>What was available:</h3>
